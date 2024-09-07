@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('pic.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #0a0a0a;
+    font-size: 48px;
+    font-family: 'Times new roman';
+}
+
+.layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px; /* Space between card and info */
+    margin-top: 40px;
+}
+
+.card-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); /* Light shadow */
+    width: 20%; /* Adjust width as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.state-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Full width to center buttons */
+}
+
+button {
+    background-color: #008cba;
+    color: white;
+    padding: 15px 0; /* Adjust padding for button height */
+    border: solid black 4px;
+    border-radius: 50px; /* Makes the buttons pill-shaped */
+    font-size: 18px; /* Larger font size */
+    margin: 10px 0; /* Adds space between buttons */
+    width: 100%; /* Full width of card */
+    max-width: 200px; /* Limits the button width */
+    cursor: pointer;
+    transition: transform 0.4s, background-color 0.4s; /* Smooth transition for transform and background color */
+    text-align: center; /* Centers the text inside the button */
+}
+
+button:hover {
+    background-color: #005f5f; /* Change background color on hover */
+    transform: scale(1.1); /* Scales the button to 110% on hover */
+}
+
+
+/* State Information Box */
+.state-info {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly less transparent */
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); /* Light shadow */
+    width: 60%; /* Adjust width as needed */
+    max-height: 80vh; /* Ensures it doesn’t exceed viewport height */
+    overflow-y: auto; /* Enables scrolling */
+    position: sticky; /* Keeps the box in view */
+    top: 20px; /* Adjust as needed for spacing */
+}
+
+.state-info h2 {
+    color: #333;
+}
+
+.state-info p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background for contrast */
+    color: #fff; /* White text color */
+    padding: 20px;
+    padding-right: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 98%;
+    margin-top: 20px; /* Space between content and footer */
+}
+
+.footer-content {
+    max-width: 1200px; /* Align with the main content width */
+    margin: 0 auto; /* Center the footer content */
+}
+
+.footer-content p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.footer-content a {
+    color: #00bcd4; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.footer-content a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}

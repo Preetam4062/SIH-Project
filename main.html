@@ -1,0 +1,1876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover India</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<a href="shopping.html"><button>Let's Shop!!</button></a>
+
+<body>
+    <div class="container">
+        <h1>Discover the States of India</h1>
+        <div class="layout">
+            <div class="card-container">
+                <div class="state-buttons">
+                    <button onclick="showInfo('Maharashtra')">Maharashtra</button>
+                    <button onclick="showInfo('Rajasthan')">Rajasthan</button>
+                    <button onclick="showInfo('Kerala')">Kerala</button>
+                    <button onclick="showInfo('Uttar Pradesh')">Uttar Pradesh</button>
+                    <button onclick="showInfo('Tamil Nadu')">Tamil Nadu</button>
+                    <button onclick="showInfo('Goa')">Goa</button>
+                    <button onclick="showInfo('Gujarat')">Gujarat</button>
+                    <button onclick="showInfo('West Bengal')">West Bengal</button>
+                    <button onclick="showInfo('Himachal Pradesh')">Himachal Pradesh</button>
+                    <button onclick="showInfo('Punjab')">Punjab</button>
+                    <button onclick="showInfo('Bihar')">Bihar</button>
+                    <button onclick="showInfo('Assam')">Assam</button>
+                    <button onclick="showInfo('Jammu and Kashmir')">Jammu and Kashmir</button>
+                    <button onclick="showInfo('Haryana')">Haryana</button>
+                    <button onclick="showInfo('Chhattisgarh')">Chhattisgarh</button>
+                    <button onclick="showInfo('Jharkhand')">Jharkhand</button>
+                    <button onclick="showInfo('Odisha')">Odisha</button>
+                    <button onclick="showInfo('Tripura')">Tripura</button>
+                    <button onclick="showInfo('Meghalaya')">Meghalaya</button>
+                    <button onclick="showInfo('Nagaland')">Nagaland</button>
+                    <button onclick="showInfo('Sikkim')">Sikkim</button>
+                    <button onclick="showInfo('Arunachal Pradesh')">Arunachal Pradesh</button>
+                    <button onclick="showInfo('Mizoram')">Mizoram</button>
+                    <button onclick="showInfo('Manipur')">Manipur</button>
+                    <button onclick="showInfo('Andhra Pradesh')">Andhra Pradesh</button>
+                    <button onclick="showInfo('Karnataka')">Karnataka</button>
+                    <button onclick="showInfo('Telangana')">Telangana</button>
+                    <button onclick="showInfo('Lakshadweep')">Lakshadweep</button>
+                    <button onclick="showInfo('Andaman and Nicobar Islands')">Andaman and Nicobar Islands</button>
+                </div>
+            </div>
+            <div class="state-info" id="info-box">
+                <h2>State Information</h2>
+                <p>Click on any state to see its information here.</p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+
+        function showInfo(state) {
+            const infoBox = document.getElementById('info-box');
+            let stateInfo = '';
+
+            switch(state) {
+                case 'Maharashtra':
+                    stateInfo = `
+                        <h2>Maharashtra</h2>
+                        <img src="">
+                        <p>Known for its bustling cities like Mumbai and Pune, Maharashtra is a state rich in history and modernity. Explore the vibrant city life, historical forts, and beautiful beaches.</p>
+                        <p><strong>Key Attractions:</strong> Gateway of India, Ajanta and Ellora Caves, Marine Drive.</p>
+                        
+        <h2 style="font-family: 'Arial', sans-serif; font-size: 28px;">Maharashtra</h2>
+        <p style="font-family: 'Times New Roman', serif; font-size: 20px;">
+        Known for its bustling cities like Mumbai and Pune, Maharashtra is a state rich in history and modernity. 
+        Maharashtra, located in western India, has a rich and diverse cultural heritage shaped by its historical, 
+        geographical, and social influences. Its heritage is deeply rooted in the Maratha Empire, which flourished under 
+        the leadership of Chhatrapati Shivaji Maharaj in the 17th century. The influence of the Marathas is seen in the 
+        state/’s forts, such as Raigad and Sindhudurg, and in its traditional values of bravery, self-governance, and pride.<br>
+
+        <span style="background-color: yellow; font-weight: bold;">Culture</span>: Maharashtra/’s culture is a blend of modern and traditional, with Mumbai acting as a global hub of cinema 
+        and finance, while rural Maharashtra preserves its folk traditions. The Marathi language is central to the identity 
+        of the people. Lavani and Tamasha, vibrant folk dances and theater forms, reflect the zest and energy of its people.<br>
+
+        <span style="background-color: yellow; font-weight: bold;">Tradition</span>: The state's traditions include celebrations like Ganesh Chaturthi, which was popularized by the nationalist 
+        leader Lokmanya Tilak as a unifying event during India/’s struggle for independence. Festivals like Gudi Padwa (New Year), 
+        Makar Sankranti, and Diwali are celebrated with fervor.<br>
+
+        <span style="background-color: yellow; font-weight: bold;">Language</span>: Marathi is the official language and is widely spoken across the state. Other languages include Hindi, English, and various dialects of Marathi like Konkani and Varhadi.<br>
+
+        <span style="background-color: yellow; font-weight: bold;">Food</span>: Maharashtra's cuisine varies by region. Coastal areas favor Konkani cuisine, featuring seafood such as fish curries and prawns, while the interior regions prefer more vegetarian dishes. Popular dishes include Puran Poli (sweet flatbread stuffed with lentils), Vada Pav (spicy potato fritter served in a bun), Misal Pav (spicy curry served with bread), Bharli Vangi (stuffed brinjal), and Thalipeeth (multigrain pancake). In desserts, Shrikhand and Puran Poli are popular.<br>
+
+        <span style="background-color: yellow; font-weight: bold;">Traditional Dress</span>: Men traditionally wear Dhoti or Lungi with a Kurta or shirt, while women wear Nauvari or Lugda sarees, which are draped uniquely to allow ease of movement. The Paithani saree, known for its intricate designs, is iconic to Maharashtra.
+        </p>
+    `;
+           
+
+                    break;
+                case 'Rajasthan':
+                    stateInfo = `
+                        <h2>Rajasthan</h2>
+                        <img src="d">
+                        <p>The land of deserts and forts, Rajasthan is famous for its royal heritage and vibrant culture. Discover the majestic palaces and colorful festivals.</p>
+                        <p><strong>Key Attractions:</strong> Jaipur City Palace, Udaipur's Lake Pichola, Jaisalmer Fort.</p>
+                       
+        
+        <h3 style="color: red;">Culture:</h3>
+        <p> <strong style="color: red;">culture</strong> is vibrant and steeped in royalty, influenced by its rich history of Rajput kings and warriors. The state's <strong style="color: red;">culture</strong> is a beautiful blend of traditional art forms, folk music, and dance. Famous folk dances like Ghoomar and Kalbeliya showcase the rhythm and grace of the local communities, while Rajasthani folk music often narrates heroic tales of bravery, valor, and romance. The state's art includes intricate miniature paintings, pottery, and puppet shows. Rajasthan’s grand architecture, including the forts and palaces of Jaipur, Udaipur, and Jaisalmer, reflects its royal heritage.</p>
+        
+        <h3 style="color: red;">Food:</h3>
+        <p>Rajasthan's <strong style="color: red;">food</strong> is known for its spicy and rich flavors, often designed to preserve food for long periods due to the state’s desert climate. Key dishes include Dal Baati Churma (a mix of lentils, baked wheat dumplings, and sweet crushed wheat), Gatte ki Sabzi (gram flour dumplings in a spicy gravy), and Laal Maas (a fiery meat curry). Kachori (fried pastry filled with lentils or potatoes), Bajra Roti (millet flatbread), and Ker Sangri (a local desert bean and berry dish) are also popular. The cuisine reflects the warrior culture of the state, with many dishes being hearty and nutritious.</p>
+        
+        <h3 style="color: red;">Tradition:</h3>
+        <p>Rajasthan’s <strong style="color: red;">tradition</strong> is deeply influenced by the Rajput valor and chivalry. The state celebrates a wide array of festivals like Diwali, Holi, Teej, and the famous Desert Festival in Jaisalmer. The Pushkar Camel Fair and Gangaur Festival are also unique to Rajasthan, showcasing local customs and religious rituals. Traditional practices such as Padharo Mhare Desh (a form of welcoming guests) highlight the state's deep-rooted hospitality and warm <strong style="color: red;">tradition</strong>.</p>
+        <h3 style="color: red;">Traditional Dress:</h3>
+        <p>Rajasthan’s <strong style="color: red;">traditional dress</strong> is known for its bright and vivid colors. Men typically wear Dhoti or Pyjama with an Angrakha (a knee-length tunic) and a Pagri (turban), with the turban being a symbol of status and honor. Women wear Ghaghra (a long skirt), Choli (blouse), and Odhni (veil), often adorned with intricate embroidery and mirror work. Bandhani (tie-dye) and Leheriya (wave-patterned textiles) are popular in women’s attire, symbolizing the state's love for intricate designs and patterns. The Kota Doria saree is another iconic garment known for its lightness and elegance. Traditional silver jewelry is also widely worn, adding to the cultural richness of the state's <strong style="color: red;">traditional dress</strong>.</p>`
+;
+                    break;
+                case 'Kerala':
+                    stateInfo = `
+                        <h2>Kerala</h2>
+                        <img src="images/kerala.jpg" alt="Kerala" class="state-image">
+                        <p>Known as 'God's Own Country,' Kerala offers lush greenery, backwaters, and a peaceful lifestyle. Enjoy the tranquil houseboats and vibrant cultural experiences.</p>
+                        <p><strong>Key Attractions:</strong> Backwaters of Alleppey, Munnar Tea Gardens, Kovalam Beach.</p>
+                        
+     <h3>Food</h3>
+<p>Kerala's cuisine is a vibrant reflection of its rich cultural heritage and geographical diversity. It is known for its extensive use of coconut, whether grated, ground, or as coconut milk, which imparts a distinct flavor to the dishes. The cuisine is predominantly vegetarian, but seafood is also an integral part, given Kerala's coastal location.</p>
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Sadhya:</strong> A traditional feast served on a banana leaf, Sadhya includes a variety of dishes such as rice, sambar (a lentil-based vegetable stew), avial (a mixed vegetable dish with coconut and yogurt), thoran (a dry vegetable dish), and payasam (a sweet dessert made from rice, lentils, or fruits).</li>
+    <li><strong>Appam and Stew:</strong> Appam is a soft and spongy rice pancake served with a stew made from vegetables or meat, cooked in a coconut milk base.</li>
+    <li><strong>Puttu and Kadala Curry:</strong> Puttu is a steamed rice cake layered with grated coconut, often served with Kadala curry, a black chickpea stew.</li>
+    <li><strong>Fish Curry:</strong> Kerala's fish curry, often prepared with tamarind and coconut, is a favorite among seafood lovers.</li>
+</ul>
+<h3>Culture</h3>
+<p>Kerala, known as 'God's Own Country,' is renowned for its diverse and rich cultural heritage. The culture of Kerala is a blend of various influences, including Dravidian, Aryan, and colonial. It is deeply rooted in its traditional art forms, literature, and festivals.</p>
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Onam:</strong> A major festival celebrated with grand feasts, traditional dance forms, and floral decorations. It marks the homecoming of the legendary King Mahabali.</li>
+    <li><strong>Vishu:</strong> Celebrated as the Malayalam New Year, it involves special rituals and a traditional feast.</li>
+    <li><strong>Kalari Payattu:</strong> An ancient martial art form originating from Kerala, known for its intricate movements and techniques.</li>
+    <li><strong>Kathakali and Mohiniyattam:</strong> Traditional dance forms that tell stories through elaborate costumes and expressive performances.</li>
+</ul>
+<h3>Tradition</h3>
+<p>Kerala's traditions are deeply intertwined with its history and religion. The state is known for its unique festivals, traditional rituals, and community events.</p>
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Namboodiri Brahmins' Rituals:</strong> These rituals include detailed ceremonies performed in temples and homes, reflecting the deep-rooted spiritual practices of the Namboodiri community.</li>
+    <li><strong>Temple Festivals:</strong> Many temples in Kerala host annual festivals with processions, music, and dance, attracting thousands of devotees and tourists.</li>
+    <li><strong>Snake Boat Races:</strong> Known as Vallamkali, these traditional boat races are a highlight of the Onam festival and showcase the communal spirit and teamwork of the local people.</li>
+</ul>
+<h3>Traditional Dress</h3>
+<p>Kerala's traditional attire reflects its cultural and historical influences. The dress is both elegant and functional, suited to the tropical climate.</p>
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Sari:</strong> The traditional sari in Kerala is often worn with a gold-bordered blouse. It is draped in a distinctive style that is unique to the state.</li>
+    <li><strong>Mundu:</strong> Women may also wear a mundu, a traditional garment similar to a sari but with a different draping style.</li>
+</ul>
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Mundu:</strong> Men traditionally wear a mundu, a long piece of cloth wrapped around the waist, usually paired with a shirt or a kurta.</li>
+    <li><strong>Kasavu Mundu:</strong> This is a special type of mundu with a gold or silver border, worn during festivals and ceremonial occasions.</li>
+</ul>
+;`;
+                    break;
+                case 'Uttar Pradesh':
+                    stateInfo = `
+                        <h2>Uttar Pradesh</h2>
+                        <img src="images/uttar-pradesh.jpg" alt="Uttar Pradesh" class="state-image">
+                        <p>Home to the Taj Mahal, Uttar Pradesh is rich in religious and historical significance. Explore the cultural and historical richness of this state.</p>
+                        <p><strong>Key Attractions:</strong> Taj Mahal, Varanasi Ghats, Agra Fort.</p>
+                        <h2>Uttar Pradesh</h2><p>Home to the Taj Mahal, Uttar Pradesh is rich in religious and historical significance.</p>
+  <h3>Culture</h3>
+<p>Uttar Pradesh (UP) is a state with a rich cultural tapestry that reflects its historical significance and diversity. Known as the heartland of Indian culture, UP has been a center for various art forms, literature, and religious practices. It is the birthplace of several major religions and philosophies, including Hinduism and Buddhism.</p>
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Historical Influence:</strong> UP has a long history, with ancient cities like Varanasi, Mathura, and Agra playing pivotal roles in India's cultural and religious history.</li>
+    <li><strong>Religious Diversity:</strong> The state is home to significant Hindu, Muslim, Sikh, and Jain communities, each contributing to its diverse cultural landscape.</li>
+    <li><strong>Festivals:</strong> Major festivals such as Diwali, Holi, Eid, and the Kumbh Mela are celebrated with great enthusiasm, showcasing the state's vibrant traditions and communal harmony.</li>
+</ul>
+<h3>Food</h3>
+<p>The cuisine of Uttar Pradesh is diverse, with each region offering its unique flavors and specialties. The food is known for its rich and spicy flavors, often featuring a combination of aromatic spices and herbs.</p>
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Chaat:</strong> A popular street food, chaat includes a variety of spicy and tangy snacks like pani puri, aloo tikki, and dahi puri.</li>
+    <li><strong>Kebabs:</strong> UP is famous for its kebabs, especially those from Lucknow, such as galouti kebabs and tandoori kebabs.</li>
+    <li><strong>Biryani:</strong> The Awadhi biryani, a flavorful rice dish cooked with aromatic spices and marinated meat, is a culinary highlight.</li>
+    <li><strong>Paratha:</strong> Stuffed parathas, served with pickles and yogurt, are a common breakfast item in UP.</li>
+    <li><strong>Rogan Josh and Nihari:</strong> These rich and spicy meat curries are traditional favorites in the region.</li>
+</ul>
+<h3>Tradition</h3>
+<p>The traditions of Uttar Pradesh are deeply rooted in its history and religious practices. The state's cultural heritage is reflected in its art, festivals, and rituals.</p>
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Kumbh Mela:</strong> Held every 12 years, this grand pilgrimage attracts millions of devotees who come to bathe in the sacred rivers.</li>
+    <li><strong>Sufi Music and Poetry:</strong> UP has a rich tradition of Sufi music and poetry, especially in cities like Lucknow and Kanpur.</li>
+    <li><strong>Classical Dance:</strong> Kathak, one of the eight classical dance forms of India, originated in UP and is performed with intricate footwork and expressive storytelling.</li>
+</ul>
+<h3>Traditional Dress</h3>
+<p>The traditional attire of Uttar Pradesh reflects its cultural and historical influences. The clothing is often characterized by elaborate designs and rich fabrics.</p>
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Sari:</strong> The sari is a common traditional garment, often worn in elegant and intricate designs, especially during festivals and special occasions.</li>
+    <li><strong>Salwar Kameez:</strong> This outfit, consisting of a long tunic and loose trousers, is widely worn for its comfort and versatility.</li>
+    <li><strong>Lehenga Choli:</strong> A traditional skirt and blouse combination, often worn during weddings and festivals, is popular in UP.</li>
+</ul>
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Kurta-Pajama:</strong> This classic outfit, consisting of a long tunic and loose trousers, is worn for everyday activities as well as formal occasions.</li>
+    <li><strong>Sherwani:</strong> A ceremonial garment worn during weddings and special events, the sherwani is a long coat-like garment with intricate embroidery.</li>
+    <li><strong>Jodhpuri Suit:</strong> A traditional outfit that includes a tailored jacket and trousers, often worn for formal events.</li>
+</ul>
+`;
+                    break;
+                case 'Tamil Nadu':
+                    stateInfo = `
+                        <h2>Tamil Nadu</h2>
+                        <img src="images/tamil-nadu.jpg" alt="Tamil Nadu" class="state-image">
+                        <p>Famous for its Dravidian architecture, temples, and cultural festivals, Tamil Nadu is a land of tradition. Experience the vibrant temples and rich cuisine.</p>
+                        <p><strong>Key Attractions:</strong> Meenakshi Temple, Marina Beach, Brihadeeswarar Temple.</p>
+                        <h2>Tamil Nadu</h2>
+<p>Famous for its Dravidian architecture, temples, and cultural festivals, Tamil Nadu is a land of tradition.</p>
+
+<h3>Culture</h3>
+<p>Tamil Nadu, located in the southern part of India, is renowned for its rich cultural heritage and historical significance. The state's culture is deeply rooted in its classical arts, literature, and religious practices. Tamil Nadu has a long history of contribution to Indian culture, especially through its unique Tamil language and classical dance forms.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Classical Arts:</strong> Tamil Nadu is the birthplace of Bharatanatyam, one of the oldest classical dance forms in India, characterized by its intricate footwork and expressive gestures.</li>
+    <li><strong>Tamil Language and Literature:</strong> Tamil is one of the oldest languages in the world with a rich literary tradition that includes ancient Sangam poetry and modern Tamil literature.</li>
+    <li><strong>Religious Heritage:</strong> The state is known for its ancient temples and religious practices, particularly Hinduism, with major temples like Meenakshi Temple in Madurai and Brihadeeswarar Temple in Thanjavur.</li>
+    <li><strong>Festivals:</strong> Tamil Nadu celebrates a variety of festivals such as Pongal, Deepavali, and Tamil New Year (Puthandu) with great enthusiasm and traditional fervor.</li>
+</ul>
+
+<h3>Food</h3>
+<p>Tamil Nadu's cuisine is characterized by its use of aromatic spices, rice, and lentils. The food is known for its distinct flavors and balanced use of spices, often including ingredients like coconut and tamarind.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Idli and Sambar:</strong> Idli is a steamed rice cake served with sambar, a spicy lentil-based vegetable stew.</li>
+    <li><strong>Dosa:</strong> A thin, crispy pancake made from fermented rice and lentil batter, often served with a variety of chutneys and sambar.</li>
+    <li><strong>Chettinad Cuisine:</strong> Known for its spicy and flavorful dishes, Chettinad cuisine includes items like Chettinad chicken curry and spicy Chettinad masala.</li>
+    <li><strong>Pongal:</strong> A savory rice dish cooked with black pepper, ginger, and ghee, often enjoyed for breakfast.</li>
+    <li><strong>Filter Coffee:</strong> Tamil Nadu is famous for its strong and aromatic filter coffee, made using a traditional coffee filter.</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>Tamil Nadu's traditions are deeply rooted in its religious, historical, and cultural practices. The state is known for its vibrant festivals, traditional arts, and architectural heritage.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Temple Festivals:</strong> Tamil Nadu hosts numerous temple festivals, including the Chithirai Festival in Madurai and the Karthigai Deepam in Tiruvannamalai, which are celebrated with grand processions and rituals.</li>
+    <li><strong>Traditional Arts:</strong> The state has a rich tradition of classical music and dance, including Carnatic music and Bharatanatyam dance performances.</li>
+    <li><strong>Temple Architecture:</strong> Tamil Nadu is renowned for its intricate temple architecture, including the Dravidian style of temple construction, with towering gopurams (gateway towers) and intricately carved sculptures.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>The traditional attire of Tamil Nadu reflects its cultural and historical influences, with garments that are elegant and suited to the warm climate.</p>
+
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Sari:</strong> The sari is a traditional garment worn in Tamil Nadu, often made from silk or cotton and draped in the Kanjeevaram style. Kanjeevaram silk saris, with their rich colors and intricate designs, are particularly famous.</li>
+    <li><strong>Pavadai and Blouse:</strong> Young girls and women may also wear a pavadai, a traditional skirt, paired with a blouse, especially during festivals and special occasions.</li>
+</ul>
+
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Veshti:</strong> The veshti, also known as lungi or mundu, is a traditional garment worn around the waist, usually paired with a shirt or a kurta. It is often worn in everyday life and during ceremonial occasions.</li>
+    <li><strong>Shirt and Vesti:</strong> Men typically wear a shirt paired with a vesti during formal events and religious ceremonies.</li>
+</ul>
+`;
+                    break;
+                case 'Goa':
+                    stateInfo = `
+                        <h2>Goa</h2>
+                        <img src="images/goa.jpg" alt="Goa" class="state-image">
+                        <p>Renowned for its stunning beaches, vibrant nightlife, and Portuguese heritage, Goa is a top destination for relaxation and adventure.</p>
+                        <p><strong>Key Attractions:</strong> Baga Beach, Old Goa Churches, Anjuna Flea Market.</p>
+                        
+
+<h3>Culture</h3>
+<p>Goa’s culture is a blend of Indian and Portuguese influences due to its colonial past. The state is celebrated for its lively festivals, music, dance, and art. The Portuguese influence is evident in the architecture, cuisine, and local dialect.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Festivals:</strong> Goa celebrates vibrant festivals such as Carnival, Shigmo, and the Feast of St. Francis Xavier with enthusiasm and traditional fervor.</li>
+    <li><strong>Music and Dance:</strong> The state is known for its lively music and dance forms, including traditional folk dances and Western influences from its Portuguese history.</li>
+    <li><strong>Architecture:</strong> Goan architecture reflects a blend of Indian and Portuguese styles, evident in its churches, forts, and colonial-era buildings.</li>
+</ul>
+
+<h3>Food</h3>
+<p>Goan cuisine is famous for its seafood, spices, and a unique blend of Indian and Portuguese flavors. The food is known for its rich and varied tastes, often featuring seafood and exotic spices.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Prawn Balchão:</strong> A spicy, tangy prawn pickle.</li>
+    <li><strong>Xacuti:</strong> A rich, coconut-based curry made with chicken or lamb.</li>
+    <li><strong>Bacalhau:</strong> Portuguese-style dried salted codfish.</li>
+    <li><strong>Vindaloo:</strong> A spicy and tangy pork curry.</li>
+    <li><strong>Sorpotel:</strong> A spicy pork dish with vinegar and spices.</li>
+    <li><strong>Feni:</strong> A local alcoholic beverage made from cashew apples or coconut sap.</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>Goa's traditions are deeply rooted in its vibrant festivals, historical practices, and architectural heritage.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Carnival:</strong> Held every February, the Goa Carnival features parades, dance, music, and colorful costumes, marking the start of Lent in the Christian calendar.</li>
+    <li><strong>Shigmo:</strong> Celebrated in March, Shigmo includes parades, folk dances, and performances that reflect Goan rural life and traditions.</li>
+    <li><strong>Feast of St. Francis Xavier:</strong> Celebrated in Old Goa every December, this festival honors St. Francis Xavier and attracts thousands of pilgrims and tourists.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>The traditional attire of Goa reflects its cultural heritage, with garments suited to the region's climate and customs.</p>
+
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Sari:</strong> A traditional garment often made from silk or cotton, draped with a decorative "Pallu" and worn with a "Kachali" (blouse). For festive occasions, women may also wear a "Pano Bhurgado."</li>
+</ul>
+
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Kurta and Dhoti:</strong> Traditional attire for formal occasions includes a kurta paired with a dhoti or lungi. For casual wear, men might opt for shirts and trousers.</li>
+</ul>
+
+<h3>Language</h3>
+<p>Goa's linguistic landscape reflects its historical influences and regional diversity.</p>
+
+<h4>Languages Spoken:</h4>
+<ul>
+    <li><strong>Konkani:</strong> The official language, spoken by the majority of the population with several dialects influenced by Portuguese and other regional languages.</li>
+    <li><strong>Portuguese:</strong> Although less commonly spoken today, Portuguese is used in legal and administrative contexts, and some older Goans speak it fluently.</li>
+    <li><strong>English and Hindi:</strong> Widely understood and used for communication with tourists and in business contexts.</li>
+</ul>
+`;
+                    break;
+                case 'Gujarat':
+                    stateInfo = `
+                        <h2>Gujarat</h2>
+                        <img src="images/gujarat.jpg" alt="Gujarat" class="state-image">
+                        <p>Known for its diverse culture, wildlife, and historic sites, Gujarat offers a blend of tradition and modernity. Explore its unique festivals and wildlife sanctuaries.</p>
+                        <p><strong>Key Attractions:</strong> Gir National Park, Rani ki Vav, White Rann of Kutch.</p>
+                       
+<h3>Culture</h3>
+<p>Gujarat's culture is characterized by its colorful festivals, traditional music and dance, and historical contributions. The state's culture is influenced by its history of trade, diverse communities, and the prominent figure of Mahatma Gandhi.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Festivals:</strong> Gujarat is famous for its lively festivals such as Navratri, Diwali, and the Kite Festival. Navratri, in particular, is celebrated with energetic Garba and Dandiya dances.</li>
+    <li><strong>Arts and Crafts:</strong> The state is known for its traditional crafts, including Bandhani (tie-dye), Patola (silk weaving), and Kutch embroidery. Gujarat also has a vibrant tradition of folk music and dance.</li>
+    <li><strong>Historical Significance:</strong> Gujarat has a rich history, with notable sites such as the ancient city of Lothal, the Gir National Park (home to Asiatic lions), and the Mahatma Gandhi Ashram in Sabarmati.</li>
+</ul>
+
+<h3>Food</h3>
+<p>Gujarat's cuisine is renowned for its diverse flavors, combining sweet, savory, and spicy elements. The food often includes a variety of vegetables, lentils, and grains, prepared with aromatic spices.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Gujarati Thali:</strong> A traditional meal consisting of various dishes served on a single platter, including chapati, rice, dal (lentils), vegetables, and sweets like shrikhand and jalebi.</li>
+    <li><strong>Dhokla:</strong> A savory steamed cake made from fermented rice and chickpea batter, often served as a snack or breakfast.</li>
+    <li><strong>Khandvi:</strong> Rolled, savory snacks made from gram flour and yogurt, seasoned with mustard seeds and curry leaves.</li>
+    <li><strong>Undhiyu:</strong> A mixed vegetable dish cooked with a blend of spices, often prepared during the winter months.</li>
+    <li><strong>Farsan:</strong> A variety of crispy snacks, including bhajiya (fritters) and chivda (spiced poha).</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>Gujarat's traditions are deeply rooted in its festivals, religious practices, and cultural heritage. The state's vibrant festivals and traditional practices reflect its historical and cultural richness.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Navratri:</strong> A major festival dedicated to the goddess Durga, celebrated with elaborate dance performances like Garba and Dandiya, and fasting.</li>
+    <li><strong>Kite Festival (Uttarayan):</strong> Celebrated in January, this festival features colorful kite flying competitions and gatherings.</li>
+    <li><strong>Rath Yatra:</strong> The annual chariot procession in the city of Ahmedabad, dedicated to Lord Jagannath, is a significant religious event.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>The traditional attire of Gujarat reflects its cultural heritage and is designed to suit the region's climate and customs.</p>
+
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Chaniya Choli:</strong> A traditional outfit consisting of a colorful skirt (chaniya) and blouse (choli), often worn with a dupatta (scarf) during festivals and special occasions.</li>
+    <li><strong>Kediya:</strong> A traditional garment worn by women, especially in rural areas, often paired with a ghagra (skirt) and choli.</li>
+</ul>
+
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Kurta and Chudidar:</strong> Men typically wear a kurta (long shirt) with chudidar (fitted trousers) or dhoti (traditional lower garment) for formal and ceremonial occasions.</li>
+    <li><strong>Bandhni and Pagdi:</strong> Traditional attire for special occasions includes a bandhni (tie-dye fabric) and a pagdi (turban), especially in the Kutch region.</li>
+</ul>
+
+<h3>Language</h3>
+<p>Gujarat's linguistic landscape includes a variety of languages and dialects reflecting its diverse communities and cultural heritage.</p>
+
+<h4>Languages Spoken:</h4>
+<ul>
+    <li><strong>Gujarati:</strong> The official language of the state, spoken by the majority of the population. It has a rich literary tradition and is used in education, administration, and daily life.</li>
+    <li><strong>Hindi:</strong> Widely understood and used in communication with people from other states and for business purposes.</li>
+    <li><strong>English:</strong> Used primarily in educational institutions, business contexts, and as a second language for many residents.</li>
+</ul>
+`;
+                    break;
+                case 'West Bengal':
+                    stateInfo = `
+                        <h2>West Bengal</h2>
+                        <img src="images/west-bengal.jpg" alt="West Bengal" class="state-image">
+                        <p>Famous for its cultural heritage, literature, and cuisine, West Bengal is home to Kolkata and scenic hill stations.</p>
+                        <p><strong>Key Attractions:</strong> Victoria Memorial, Darjeeling, Sundarbans National Park.</p>
+                        
+<h3>Culture</h3>
+<p>West Bengal's culture is a vibrant mix of traditional and modern influences, with significant contributions to literature, music, and art. The state's cultural life is deeply rooted in its festivals, classical music, and renowned literary figures.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Literature and Arts:</strong> West Bengal has a rich literary tradition with notable figures like Rabindranath Tagore and Satyajit Ray. The state is also known for its contributions to modern art and cinema.</li>
+    <li><strong>Classical Music:</strong> The state is famous for its classical music traditions, including Rabindra Sangeet (songs written by Rabindranath Tagore) and classical performances.</li>
+    <li><strong>Festivals:</strong> West Bengal celebrates a variety of festivals, including Durga Puja, Kali Puja, and the Bengali New Year (Pohela Boishakh), with grandeur and enthusiasm.</li>
+</ul>
+
+<h3>Food</h3>
+<p>West Bengal's cuisine is known for its diverse and rich flavors, combining a variety of spices, seafood, and unique preparations. The food is characterized by its use of mustard oil, rice, and fish.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Rasgulla:</strong> A famous Bengali sweet made from fresh cheese balls soaked in sugar syrup.</li>
+    <li><strong>Machher Jhol:</strong> A traditional fish curry made with fresh fish, tomatoes, and a blend of spices.</li>
+    <li><strong>Shorshe Ilish:</strong> Hilsa fish cooked in a mustard seed paste, a delicacy of Bengali cuisine.</li>
+    <li><strong>Bhapa Ilish:</strong> Steamed Hilsa fish with mustard paste, known for its unique flavor.</li>
+    <li><strong>Mishti Doi:</strong> A traditional Bengali sweet yogurt, flavored with cardamom and often enjoyed as a dessert.</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>West Bengal's traditions are deeply rooted in its religious, historical, and cultural practices. The state is known for its vibrant festivals, traditional arts, and historical landmarks.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Durga Puja:</strong> The most significant festival in West Bengal, celebrated with elaborate decorations, rituals, and cultural performances to honor the goddess Durga.</li>
+    <li><strong>Pohela Boishakh:</strong> The Bengali New Year, celebrated with traditional music, dance, and festive foods.</li>
+    <li><strong>Kali Puja:</strong> A festival dedicated to the goddess Kali, marked by rituals, offerings, and celebrations.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>The traditional attire of West Bengal reflects its cultural heritage and is designed to suit the region's climate and customs.</p>
+
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Sari:</strong> The sari is a traditional garment worn by Bengali women, often made from silk or cotton and draped elegantly. The "Benarasi" sari is particularly renowned.</li>
+    <li><strong>Punjabi Dress:</strong> During certain festivals or traditional events, women may also wear a Punjabi dress, consisting of a salwar kameez.</li>
+</ul>
+
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Dhoti and Panjabi:</strong> Men traditionally wear a dhoti (a type of cloth wrapped around the waist) paired with a panjabi (a long shirt) for formal occasions and festivals.</li>
+    <li><strong>Kurta and Pajama:</strong> For everyday wear and special occasions, men may wear a kurta with pajama (loose trousers).</li>
+</ul>
+
+<h3>Language</h3>
+<p>West Bengal's linguistic landscape includes a variety of languages and dialects reflecting its cultural diversity and historical influences.</p>
+
+<h4>Languages Spoken:</h4>
+<ul>
+    <li><strong>Bengali:</strong> The official language of West Bengal, spoken by the majority of the population. It has a rich literary tradition and is used in education, administration, and daily life.</li>
+    <li><strong>Hindi:</strong> Widely understood and used in communication with people from other states and for business purposes.</li>
+    <li><strong>English:</strong> Used primarily in educational institutions, business contexts, and as a second language for many residents.</li>
+</ul>
+`;
+                    break;
+                case 'Himachal Pradesh':
+                    stateInfo = `
+                        <h2>Himachal Pradesh</h2>
+                        <img src="images/himachal-pradesh.jpg" alt="Himachal Pradesh" class="state-image">
+                        <p>Known for its beautiful mountain landscapes and adventure activities, Himachal Pradesh is a paradise for nature lovers and thrill-seekers.</p>
+                        <p><strong>Key Attractions:</strong> Shimla, Manali, Dharamshala.</p>
+                        
+<p>Himachal Pradesh, located in the northern part of India, is known for its stunning natural landscapes, rich cultural heritage, and vibrant traditions. The state's culture is deeply influenced by its mountainous terrain and diverse communities.</p>
+
+<h3>Culture</h3>
+<p>Himachal Pradesh's culture is a blend of various traditions, including those of the indigenous tribes and communities. The state's cultural life is characterized by its folk music, dance, and festivals that celebrate its unique heritage.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Folk Music and Dance:</strong> The state is known for its traditional folk music and dance forms such as Chamba Rumal, Kinnauri Nati, and Sirmauri Nati, which are performed during festivals and community gatherings.</li>
+    <li><strong>Festivals:</strong> Himachal Pradesh celebrates a variety of festivals, including Diwali, Lohri, and the famous Kullu Dussehra, with colorful processions and traditional rituals.</li>
+    <li><strong>Handicrafts:</strong> The state is renowned for its handicrafts, including woolen shawls, traditional wooden carvings, and intricate embroidery from regions like Kullu and Chamba.</li>
+</ul>
+
+<h3>Food</h3>
+<p>Himachal Pradesh's cuisine is known for its hearty and flavorful dishes, which reflect the state's agricultural practices and climate. The food often includes a variety of lentils, vegetables, and dairy products.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Chana Madra:</strong> A spicy and tangy dish made from chickpeas cooked with yogurt and spices.</li>
+    <li><strong>Dham:</strong> A traditional meal served during festivals, consisting of rice, lentils, and vegetables cooked in a specific style, often accompanied by a sweet dish.</li>
+    <li><strong>Siddu:</strong> A steamed bread made from wheat flour, often served with ghee or vegetable curries.</li>
+    <li><strong>Chur Chur Naan:</strong> A type of bread stuffed with spices and herbs, typically enjoyed with vegetables or meat dishes.</li>
+    <li><strong>Mittha:</strong> A sweet rice pudding made with rice, dry fruits, and sugar, often served during special occasions.</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>The traditions of Himachal Pradesh are deeply rooted in its religious practices, festivals, and cultural rituals. The state's traditions are celebrated with enthusiasm and are an integral part of daily life.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Kullu Dussehra:</strong> An annual festival held in Kullu, celebrated with grand processions, traditional dances, and the worship of the local deities.</li>
+    <li><strong>Lohri:</strong> A harvest festival celebrated with bonfires, traditional songs, and dance, marking the end of winter and the arrival of spring.</li>
+    <li><strong>Winter Festivals:</strong> Various winter festivals are celebrated in the hill stations, featuring local traditions, music, and dance performances.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>The traditional attire of Himachal Pradesh reflects its cultural diversity and the region's climatic conditions. The clothing is often vibrant and functional, designed to suit the mountainous terrain.</p>
+
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Chamba Rumal:</strong> A traditional embroidered cloth worn over the shoulders or as part of the attire during special occasions.</li>
+    <li><strong>Kurta and Salwar:</strong> Women commonly wear a kurta (long shirt) paired with salwar (loose trousers) and a shawl, especially in rural areas.</li>
+</ul>
+
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Churidaar and Kurta:</strong> Men typically wear churidaar (fitted trousers) with a kurta (long shirt), often paired with a traditional cap.</li>
+    <li><strong>Jacket and Shawl:</strong> During colder months, men wear warm jackets and shawls made from wool or other materials suitable for the chilly climate.</li>
+</ul>
+
+<h3>Language</h3>
+<p>Himachal Pradesh's linguistic landscape includes several languages and dialects, reflecting the state's diverse cultural and ethnic background.</p>
+
+<h4>Languages Spoken:</h4>
+<ul>
+    <li><strong>Hindi:</strong> The official language of Himachal Pradesh, spoken by the majority of the population. It is used in education, administration, and daily communication.</li>
+    <li><strong>Punjabi:</strong> Widely spoken in certain regions of the state, especially in areas with a significant Punjabi population.</li>
+    <li><strong>Kinnauri, Mandeali, and other Regional Dialects:</strong> Various regional dialects are spoken in different parts of the state, reflecting the local cultures and traditions.</li>
+</ul>
+`;
+                    break;
+                case 'Punjab':
+                    stateInfo = `
+                        <h2>Punjab</h2>
+                        <img src="images/punjab.jpg" alt="Punjab" class="state-image">
+                        <p>Known for its vibrant culture, rich history, and delicious cuisine, Punjab is a land of colorful festivals and traditions.</p>
+                        <p><strong>Key Attractions:</strong> Golden Temple, Jallianwala Bagh, Amritsar.</p>
+                        
+<p>Punjab, located in the northwestern part of India, is known for its vibrant culture, rich traditions, and hearty cuisine. The state is characterized by its historical significance, agricultural prosperity, and diverse cultural practices.</p>
+
+<h3>Culture</h3>
+<p>Punjab's culture is a lively blend of traditional and modern influences, reflecting its history and the contributions of various communities. The state is renowned for its music, dance, and festivals, which play a central role in its cultural life.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Music and Dance:</strong> Punjab is famous for its energetic folk music and dance forms, including Bhangra and Gidda. These performances are integral to celebrations and community events.</li>
+    <li><strong>Festivals:</strong> The state celebrates a variety of festivals, such as Lohri, Baisakhi, and Diwali, with great enthusiasm and traditional rituals.</li>
+    <li><strong>Historical Significance:</strong> Punjab has a rich historical heritage, with important sites such as the Golden Temple in Amritsar and the historic city of Lahore (now in Pakistan).</li>
+</ul>
+
+<h3>Food</h3>
+<p>Punjab's cuisine is known for its robust flavors, use of dairy products, and a variety of vegetarian and non-vegetarian dishes. The food is hearty and often prepared with rich, aromatic spices.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Butter Chicken:</strong> A popular dish made from tender chicken pieces cooked in a rich, creamy tomato-based sauce.</li>
+    <li><strong>Chole Bhature:</strong> A traditional dish consisting of spicy chickpeas (chole) served with deep-fried bread (bhature).</li>
+    <li><strong>Dal Makhani:</strong> A creamy lentil dish cooked with butter and cream, known for its rich texture and flavor.</li>
+    <li><strong>Paneer Tikka:</strong> Marinated cubes of paneer (Indian cottage cheese) grilled or baked, often served as an appetizer.</li>
+    <li><strong>Amritsari Kulcha:</strong> A type of stuffed bread made with various fillings and cooked in a tandoor (clay oven), commonly enjoyed with curries.</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>The traditions of Punjab are deeply rooted in its agricultural lifestyle, religious practices, and festive celebrations. The state's traditions are marked by vibrant festivals, traditional attire, and communal harmony.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Baisakhi:</strong> A major festival celebrated in April to mark the harvest season and the formation of the Khalsa (Sikh community). It includes religious ceremonies, folk dances, and processions.</li>
+    <li><strong>Lohri:</strong> A festival held in January to celebrate the end of winter and the harvest season, featuring bonfires, traditional songs, and dance.</li>
+    <li><strong>Weddings:</strong> Punjabi weddings are known for their grand celebrations, elaborate rituals, and vibrant attire, with events spanning several days.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>The traditional attire of Punjab reflects its cultural heritage and the region's vibrant lifestyle. The clothing is often colorful and suited to the local climate.</p>
+
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Salwar Kameez:</strong> The most common traditional attire for women, consisting of a long tunic (kameez) paired with loose trousers (salwar) and a matching scarf (dupatta).</li>
+    <li><strong>Chunni:</strong> A traditional scarf or shawl worn over the shoulders or head, often used to complement the salwar kameez.</li>
+</ul>
+
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Kurta and Pajama:</strong> Men often wear a kurta (long shirt) with a pajama (loose trousers) for formal and casual occasions.</li>
+    <li><strong>Pathani Suit:</strong> A traditional outfit consisting of a long tunic and trousers, commonly worn by men in Punjab.</li>
+    <li><strong>Turban:</strong> The turban is an important part of traditional attire for Sikh men, symbolizing respect and religious identity.</li>
+</ul>
+
+<h3>Language</h3>
+<p>Punjab's linguistic landscape includes Punjabi as the primary language, with several dialects and regional variations reflecting the state's diverse culture.</p>
+
+<h4>Languages Spoken:</h4>
+<ul>
+    <li><strong>Punjabi:</strong> The official language of Punjab, spoken by the majority of the population. It is used in education, administration, and daily communication.</li>
+    <li><strong>Hindi:</strong> Widely understood and used for communication across different regions and for business purposes.</li>
+    <li><strong>English:</strong> Used primarily in educational institutions, business contexts, and as a second language for many residents.</li>
+</ul>
+`;
+                    break;
+                case 'Bihar':
+                    stateInfo = `
+                        <h2>Bihar</h2>
+                        <img src="images/bihar.jpg" alt="Bihar" class="state-image">
+                        <p>Bihar is a state with a rich historical and cultural heritage. It is known for its ancient sites and Buddhist monasteries.</p>
+                        <p><strong>Key Attractions:</strong> Bodh Gaya, Nalanda University, Patna Museum.</p>
+                       
+<p>Bihar, located in the eastern part of India, is known for its rich historical legacy, diverse cultural traditions, and vibrant festivals. The state has a significant role in India's cultural and religious history.</p>
+
+<h3>Culture</h3>
+<p>Bihar's culture is a blend of ancient traditions and modern influences, with a deep connection to its historical and religious significance. The state is known for its contributions to literature, music, and arts.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Historical Legacy:</strong> Bihar is renowned for its historical significance, particularly as the site of ancient civilizations such as Magadh and the birthplace of Buddhism, with important sites like Bodh Gaya.</li>
+    <li><strong>Literature and Arts:</strong> The state has a rich tradition of literature and arts, with notable contributions to Hindi and Maithili literature. Traditional art forms include Madhubani painting.</li>
+    <li><strong>Festivals:</strong> Bihar celebrates a variety of festivals, including Chhath Puja, a major festival dedicated to the Sun God, and other regional festivals like Sonepur Mela and Mithila Mela.</li>
+</ul>
+
+<h3>Food</h3>
+<p>Bihar's cuisine is characterized by its simplicity and use of locally available ingredients. The food is often prepared with minimal spices but is rich in flavor and nutritional value.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Litti Chokha:</strong> A traditional dish consisting of litti (wheat flour balls stuffed with sattu) served with chokha (a mix of mashed vegetables like eggplant, tomato, and potatoes).</li>
+    <li><strong>Chana Sattu:</strong> A dish made from roasted gram flour (sattu) mixed with water and spices, often enjoyed as a nutritious snack.</li>
+    <li><strong>Kadhi-Bhat:</strong> A combination of rice (bhat) and a yogurt-based curry (kadhi), commonly eaten with pickles and papad.</li>
+    <li><strong>Rajgira Paratha:</strong> Paratha made from amaranth flour, commonly enjoyed during fasting periods or as a healthy meal option.</li>
+    <li><strong>Khaja:</strong> A sweet pastry made from wheat flour, sugar, and ghee, often enjoyed during festivals and special occasions.</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>The traditions of Bihar are deeply rooted in its historical, religious, and cultural practices. The state's traditions are celebrated with a blend of enthusiasm and reverence.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Chhath Puja:</strong> A major festival dedicated to the Sun God, celebrated with rituals that include offering prayers, fasting, and making offerings at rivers or water bodies.</li>
+    <li><strong>Madhubani Art:</strong> Traditional folk art originating from the Mithila region, characterized by intricate designs and vibrant colors depicting religious and mythological themes.</li>
+    <li><strong>Sonepur Mela:</strong> One of the largest cattle fairs in Asia, held in Sonepur, attracting traders, tourists, and cultural enthusiasts from various regions.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>The traditional attire of Bihar reflects its cultural heritage and regional practices. The clothing is often simple yet elegant, suited to the state's climate and cultural norms.</p>
+
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Saree:</strong> The traditional garment worn by women, often made from silk or cotton and draped in various styles. The saree is commonly worn during festivals and special occasions.</li>
+    <li><strong>Salwar Kameez:</strong> A popular outfit consisting of a long tunic (kameez) paired with loose trousers (salwar) and a scarf (dupatta), worn for everyday activities and casual events.</li>
+</ul>
+
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Kurta-Pajama:</strong> A traditional outfit consisting of a long shirt (kurta) and loose trousers (pajama), worn for formal and casual occasions.</li>
+    <li><strong>Dhoti:</strong> A traditional garment worn around the waist, often paired with a kurta for formal events and religious ceremonies.</li>
+</ul>
+
+<h3>Language</h3>
+<p>Bihar's linguistic landscape includes several languages and dialects, reflecting its diverse cultural and ethnic background.</p>
+
+<h4>Languages Spoken:</h4>
+<ul>
+    <li><strong>Hindi:</strong> The official language of Bihar, spoken by the majority of the population. It is used in education, administration, and daily communication.</li>
+    <li><strong>Maithili:</strong> A regional language spoken predominantly in the Mithila region of Bihar, with a rich literary tradition and cultural significance.</li>
+    <li><strong>Bhojpuri:</strong> Spoken in several parts of Bihar, particularly in the western regions, and widely used in local communication and folk traditions.</li>
+    <li><strong>Magahi:</strong> Another regional dialect spoken in the southern parts of Bihar, contributing to the state's linguistic diversity.</li>
+</ul>
+`;
+                    break;
+                case 'Assam':
+                    stateInfo = `
+                        <h2>Assam</h2>
+                        <img src="images/assam.jpg" alt="Assam" class="state-image">
+                        <p>Assam is famous for its tea gardens, lush green landscapes, and unique wildlife. Discover the rich culture and traditions of Assam.</p>
+                        <p><strong>Key Attractions:</strong> Kaziranga National Park, Majuli Island, Assam State Museum.</p>
+                       
+<p>Assam, located in the northeastern part of India, is known for its diverse culture, rich traditions, and natural beauty. The state is famous for its tea gardens, vibrant festivals, and unique cultural practices.</p>
+
+<h3>Culture</h3>
+<p>Assam's culture is a blend of indigenous traditions and influences from various communities. The state's cultural heritage includes classical dance forms, traditional music, and a rich history of arts and crafts.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Classical Arts:</strong> Assam is known for its classical dance forms such as Sattriya, which is performed as part of religious rituals in the Vaishnavite monasteries.</li>
+    <li><strong>Music:</strong> Traditional Assamese music includes folk songs and instruments like the dhol (drum), pepa (horn), and flute. Bihu songs and dances are particularly popular.</li>
+    <li><strong>Festivals:</strong> Assam celebrates various festivals, including Bihu (the harvest festival), Rongali Bihu, and Magh Bihu, which are marked by feasting, dancing, and cultural performances.</li>
+</ul>
+
+<h3>Food</h3>
+<p>Assamese cuisine is known for its distinctive flavors and use of local ingredients. The food is often characterized by a mild, yet flavorful approach, with an emphasis on fresh, seasonal produce.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Assamese Thali:</strong> A traditional meal that includes a variety of dishes served on a single platter, such as rice, dal (lentils), vegetable curries, fish, and chutneys.</li>
+    <li><strong>Masor Tenga:</strong> A tangy fish curry made with tomatoes, lemon, and local herbs, known for its refreshing flavor.</li>
+    <li><strong>Khar:</strong> A traditional dish made with raw papaya or vegetables, cooked with alkali (commonly from the ashes of rice husks) and flavored with spices.</li>
+    <li><strong>Duck Meat Curry:</strong> A delicacy in Assam, prepared with local herbs and spices, often enjoyed during special occasions.</li>
+    <li><strong>Pithas:</strong> Traditional rice cakes or sweets made from rice flour, often enjoyed during festivals and special occasions.</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>Assam's traditions reflect its diverse cultural influences and historical heritage. The state is known for its vibrant festivals, traditional arts, and communal celebrations.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Bihu Festival:</strong> The most significant festival in Assam, celebrated in April (Rongali Bihu) and January (Magh Bihu) with traditional dances, music, feasting, and cultural performances.</li>
+    <li><strong>Sattriya Dance:</strong> A classical dance form performed in the Vaishnavite monasteries, reflecting religious and cultural themes through intricate movements and expressions.</li>
+    <li><strong>Traditional Handicrafts:</strong> Assam is known for its weaving traditions, including the production of Assamese silk (Muga and Eri) and handwoven textiles like Assamese sarees and shawls.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>The traditional attire of Assam is characterized by its elegance and use of locally produced fabrics. The clothing reflects the state's cultural heritage and is often worn during festivals and special occasions.</p>
+
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Mekhela Chador:</strong> The traditional Assamese attire for women, consisting of a mekhela (a skirt) and chador (a shawl), usually made from silk or cotton and adorned with intricate designs.</li>
+    <li><strong>Traditional Sarees:</strong> Assamese women also wear sarees, often made from handwoven silk fabrics like Muga and Eri, known for their unique textures and colors.</li>
+</ul>
+
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Gamosa:</strong> A traditional Assamese garment worn by men, often used as a symbol of respect and hospitality. It is a rectangular piece of cloth, usually with red and white patterns.</li>
+    <li><strong>Kurta and Pajama:</strong> Men often wear a kurta (long shirt) with a pajama (loose trousers) for formal occasions and daily wear.</li>
+    <li><strong>Dhoti:</strong> A traditional garment worn around the waist, often paired with a kurta for formal events and religious ceremonies.</li>
+</ul>
+
+<h3>Language</h3>
+<p>Assam's linguistic landscape includes several languages and dialects, reflecting its diverse ethnic and cultural background.</p>
+
+<h4>Languages Spoken:</h4>
+<ul>
+    <li><strong>Assamese:</strong> The official language of Assam, spoken by the majority of the population. It is used in education, administration, and daily communication.</li>
+    <li><strong>Bodo:</strong> Spoken by the Bodo community in the Bodoland region, with its own script and cultural significance.</li>
+    <li><strong>Hindi and English:</strong> Widely understood and used for communication with tourists and in business contexts.</li>
+</ul>
+`;
+                    break;
+                case 'Jammu and Kashmir':
+                    stateInfo = `
+                        <h2>Jammu and Kashmir</h2>
+                        <img src="images/jammu-and-kashmir.jpg" alt="Jammu and Kashmir" class="state-image">
+                        <p>Known for its breathtaking landscapes, Jammu and Kashmir offers serene beauty with its mountains, lakes, and gardens.</p>
+                        <p><strong>Key Attractions:</strong> Srinagar's Dal Lake, Gulmarg, Leh-Ladakh.</p>
+                        
+<p>Jammu and Kashmir, located in the northern part of India, is renowned for its stunning landscapes, rich cultural heritage, and diverse traditions. The region is famous for its natural beauty, including mountains, rivers, and lush valleys.</p>
+
+<h3>Culture</h3>
+<p>The culture of Jammu and Kashmir is a blend of various influences, including Hindu, Buddhist, and Islamic traditions. The region is known for its unique art forms, music, and festivals.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Art and Craft:</strong> Jammu and Kashmir is famous for its traditional arts and crafts, including Pashmina shawls, Kashmiri carpets, and Papier-mâché items.</li>
+    <li><strong>Music and Dance:</strong> The region has a rich tradition of music and dance, with notable forms including the Sufi music of Kashmir and the Bhand Pather, a traditional theatre performance.</li>
+    <li><strong>Festivals:</strong> The region celebrates various festivals such as Eid, Diwali, Lohri, and Baisakhi with unique local customs and vibrant festivities.</li>
+</ul>
+
+<h3>Food</h3>
+<p>Jammu and Kashmir's cuisine is known for its rich flavors and unique dishes, often featuring a variety of spices and ingredients specific to the region.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Rogan Josh:</strong> A popular Kashmiri dish made with tender pieces of lamb cooked in a rich, aromatic curry sauce.</li>
+    <li><strong>Yakhni:</strong> A yogurt-based curry made with meat, often flavored with spices like cardamom and cloves.</li>
+    <li><strong>Gushtaba:</strong> A traditional dish made with minced meat cooked in a creamy, spiced gravy, typically enjoyed during festive occasions.</li>
+    <li><strong>Kahwa:</strong> A traditional green tea brewed with saffron, cardamom, and almonds, known for its soothing and aromatic qualities.</li>
+    <li><strong>Wazwan:</strong> A traditional Kashmiri meal that includes a variety of dishes prepared by skilled chefs called Wazas, often served during special events and celebrations.</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>The traditions of Jammu and Kashmir reflect the diverse cultural influences and historical heritage of the region. The state's customs and practices are deeply rooted in its historical and religious background.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Wazwan:</strong> A traditional Kashmiri cuisine that includes a multi-course meal prepared by expert chefs. It is an integral part of Kashmiri hospitality and culture.</li>
+    <li><strong>Shikara Ride:</strong> A traditional boat ride on Dal Lake and other lakes in Kashmir, often accompanied by a view of the picturesque landscapes and houseboats.</li>
+    <li><strong>Kashmiri Pheran:</strong> A traditional robe worn by both men and women in Kashmir, especially during the winter season for its warmth and comfort.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>The traditional attire of Jammu and Kashmir reflects its cultural heritage and is designed to suit the region's climate and customs.</p>
+
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Pheran:</strong> A traditional Kashmiri robe worn over a dress, often made from warm fabrics and adorned with intricate embroidery.</li>
+    <li><strong>Salwar Kameez:</strong> A common outfit consisting of a long tunic (kameez) paired with loose trousers (salwar) and a scarf (dupatta), worn for everyday activities and special occasions.</li>
+</ul>
+
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Pheran:</strong> A long, loose robe worn by men, often paired with a turban or cap, especially during the winter season.</li>
+    <li><strong>Shalwar Kameez:</strong> Men also wear a kurta (long shirt) with shalwar (loose trousers) for formal events and daily wear.</li>
+</ul>
+
+<h3>Language</h3>
+<p>Jammu and Kashmir is a linguistically diverse region with several languages spoken across its different areas. The primary languages reflect the region's cultural and historical background.</p>
+
+<h4>Languages Spoken:</h4>
+<ul>
+    <li><strong>Dogri:</strong> Spoken in the Jammu region, Dogri is one of the major languages of the state and has a rich literary tradition.</li>
+    <li><strong>Kashmiri:</strong> The principal language spoken in the Kashmir Valley, known for its distinct linguistic and cultural identity.</li>
+    <li><strong>Punjabi:</strong> Spoken in parts of Jammu and Kashmir, particularly in areas close to the Punjab region.</li>
+    <li><strong>Urdu:</strong> Widely used in both Jammu and Kashmir for official and educational purposes and understood by many residents.</li>
+</ul>
+`;
+                    break;
+                case 'Haryana':
+                    stateInfo = `
+                        <h2>Haryana</h2>
+                        <img src="images/haryana.jpg" alt="Haryana" class="state-image">
+                        <p>Haryana is known for its agricultural richness and historical significance. It offers a mix of urban and rural experiences.</p>
+                        <p><strong>Key Attractions:</strong> Kurukshetra, Sultanpur National Park, Haryana Museum.</p>
+                        
+<p>Haryana, located in the northern part of India, is known for its vibrant culture, rich traditions, and historical significance. The state is recognized for its agricultural heritage, festivals, and traditional art forms.</p>
+
+<h3>Culture</h3>
+<p>Haryana's culture is deeply rooted in its rural traditions and agricultural lifestyle. The state is known for its folk music, dance forms, and traditional practices that reflect its vibrant heritage.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Folk Music and Dance:</strong> Haryana is renowned for its folk music and dance forms such as Haryanvi Jhumar, Phag, and Gidda. These performances are integral to the state's cultural celebrations.</li>
+    <li><strong>Art and Craft:</strong> Traditional crafts include pottery, weaving, and embroidery. Haryanvi embroidery, known for its intricate patterns and vibrant colors, is particularly notable.</li>
+    <li><strong>Festivals:</strong> Haryana celebrates various festivals like Baisakhi, Teej, and Holi with traditional fervor. These festivals are marked by lively festivities, cultural performances, and communal gatherings.</li>
+</ul>
+
+<h3>Food</h3>
+<p>Haryanvi cuisine is characterized by its simple, hearty, and wholesome dishes, reflecting the agricultural lifestyle of the state. The food often features locally grown ingredients and traditional cooking methods.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Chaach:</strong> A traditional buttermilk drink, often consumed for its cooling effect and digestive benefits.</li>
+    <li><strong>Khichdi:</strong> A comforting dish made with rice and lentils, often cooked with vegetables and spices.</li>
+    <li><strong>Raita:</strong> A yogurt-based side dish mixed with vegetables like cucumber or carrot, flavored with spices.</li>
+    <li><strong>Makhania Lassi:</strong> A rich, creamy yogurt drink flavored with spices, often enjoyed during hot weather.</li>
+    <li><strong>Roht:</strong> A traditional flatbread made from wheat flour, typically served with vegetables or lentil dishes.</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>Haryana's traditions are influenced by its rural lifestyle and agricultural practices. The state's customs and practices are reflected in its festivals, traditional ceremonies, and daily life.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Baisakhi:</strong> Celebrated in April, Baisakhi marks the harvest season and is observed with traditional dances, music, and feasting.</li>
+    <li><strong>Teej:</strong> A festival dedicated to the goddess Parvati, celebrated by women with fasting, singing, and dancing.</li>
+    <li><strong>Traditional Sports:</strong> Haryanvi culture includes traditional sports like Kabaddi and wrestling, which are popular in rural areas and often featured in local fairs.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>The traditional attire of Haryana reflects its rural and agricultural heritage. The clothing is designed to be practical and suited to the local climate.</p>
+
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Salwar Kameez:</strong> A traditional outfit consisting of a long tunic (kameez) paired with loose trousers (salwar) and a scarf (dupatta). It is commonly worn by women for daily activities and special occasions.</li>
+    <li><strong>Ghagras:</strong> A traditional skirt worn with a choli (blouse) and dupatta, often adorned with embroidery and used for festive occasions.</li>
+</ul>
+
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Dhoti and Kurta:</strong> Traditional attire consisting of a dhoti (loose trousers) paired with a kurta (long shirt), worn for formal events and religious ceremonies.</li>
+    <li><strong>Jacket and Turban:</strong> Men may also wear a traditional jacket or vest along with a turban, particularly during cultural events and ceremonies.</li>
+</ul>
+
+<h3>Language</h3>
+<p>Haryana's linguistic landscape is influenced by its cultural and historical background, with several languages spoken across the state.</p>
+
+<h4>Languages Spoken:</h4>
+<ul>
+    <li><strong>Hindi:</strong> The official language of Haryana, widely spoken and used for communication in education, administration, and daily life.</li>
+    <li><strong>Haryanvi:</strong> A regional dialect of Hindi spoken primarily in rural areas. It reflects the local culture and traditions of Haryana.</li>
+    <li><strong>Punjabi:</strong> Spoken in areas close to the Punjab region, particularly in the districts of Haryana bordering Punjab.</li>
+</ul>
+`;
+                    break;
+                case 'Chhattisgarh':
+                    stateInfo = `
+                        <h2>Chhattisgarh</h2>
+                        <img src="images/chhattisgarh.jpg" alt="Chhattisgarh" class="state-image">
+                        <p>Chhattisgarh is known for its dense forests, waterfalls, and tribal culture. Explore its natural beauty and heritage.</p>
+                        <p><strong>Key Attractions:</strong> Chitrakote Falls, Bhoramdeo Temple, Kanger Valley National Park.</p>
+                        
+<p>Chhattisgarh, located in central India, is known for its rich cultural heritage, diverse traditions, and vibrant festivals. The state is characterized by its tribal culture, traditional art forms, and distinctive cuisine.</p>
+
+<h3>Culture</h3>
+<p>The culture of Chhattisgarh is deeply influenced by its tribal communities and their traditional practices. The state's culture is known for its folk music, dance forms, and art.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Tribal Art and Craft:</strong> Chhattisgarh is famous for its tribal art forms such as Warli paintings and intricate bamboo and terracotta crafts.</li>
+    <li><strong>Folk Music and Dance:</strong> The state is known for its vibrant folk music and dance forms, including the Panthi, Raut Nacha, and Soowa dance. These performances are integral to the state's cultural celebrations.</li>
+    <li><strong>Festivals:</strong> Chhattisgarh celebrates a variety of festivals, including Bastar Dussehra, a unique festival marked by tribal rituals and processions, and the traditional festival of Chakradhar Samaroh.</li>
+</ul>
+
+<h3>Food</h3>
+<p>Chhattisgarhi cuisine is known for its simplicity and use of locally available ingredients. The food often includes rice, lentils, and a variety of vegetables and spices.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Chana Samosa:</strong> A popular snack made from spiced chickpeas wrapped in a crisp pastry.</li>
+    <li><strong>Faraa:</strong> Steamed rice dumplings flavored with spices and served with chutney.</li>
+    <li><strong>Bhutte Ka Kees:</strong> A unique dish made from grated corn cooked with spices and milk.</li>
+    <li><strong>Dubki Kadhi:</strong> A tangy curry made from gram flour dumplings in a yogurt-based gravy.</li>
+    <li><strong>Rice and Dal:</strong> A staple meal in Chhattisgarh, often served with a variety of vegetable dishes and pickles.</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>The traditions of Chhattisgarh are deeply rooted in its tribal heritage and rural lifestyle. The state's customs are reflected in its festivals, rituals, and traditional practices.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Bastar Dussehra:</strong> A major festival in Chhattisgarh, celebrated with unique tribal rituals, processions, and cultural performances. It is one of the longest Dussehra celebrations in India.</li>
+    <li><strong>Tribal Festivals:</strong> Festivals like Goncha and Pola are celebrated by various tribal communities, featuring traditional dances, music, and rituals.</li>
+    <li><strong>Handicrafts:</strong> Traditional crafts such as bell metal (Pital) work and terracotta pottery are integral to the state's cultural heritage.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>The traditional attire of Chhattisgarh reflects its tribal and rural heritage, designed to be practical and suited to the local climate.</p>
+
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Saree:</strong> Women traditionally wear sarees made from cotton or silk, often adorned with local embroidery and patterns.</li>
+    <li><strong>Lehenga-Choli:</strong> A traditional outfit consisting of a long skirt (lehenga) paired with a blouse (choli) and a dupatta (scarf), often worn during festivals and special occasions.</li>
+</ul>
+
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Lungi and Kurta:</strong> Men traditionally wear a lungi (a type of wrap-around garment) paired with a kurta (long shirt) for daily wear and formal events.</li>
+    <li><strong>Dhoti and Kurta:</strong> A traditional outfit consisting of a dhoti (loose trousers) paired with a kurta, often worn during ceremonies and festivals.</li>
+</ul>
+
+<h3>Language</h3>
+<p>Chhattisgarh's linguistic landscape is influenced by its cultural and historical background, with several languages spoken across the state.</p>
+
+<h4>Languages Spoken:</h4>
+<ul>
+    <li><strong>Chhattisgarhi:</strong> The primary language spoken in Chhattisgarh, belonging to the Indo-Aryan family and widely used in daily communication and cultural practices.</li>
+    <li><strong>Hindi:</strong> The official language of Chhattisgarh, used for administration, education, and official purposes.</li>
+    <li><strong>Odia:</strong> Spoken in areas bordering Odisha, particularly in the eastern parts of the state.</li>
+</ul>
+`;
+                    break;
+                case 'Jharkhand':
+                    stateInfo = `
+                        <h2>Jharkhand</h2>
+                        <img src="images/jharkhand.jpg" alt="Jharkhand" class="state-image">
+                        <p>Jharkhand is rich in mineral resources and natural beauty. It offers a variety of attractions including forests, waterfalls, and ancient temples.</p>
+                        <p><strong>Key Attractions:</strong> Dassam Falls, Ranchi Hill, Jamshedpur.</p>
+                        
+<p>Jharkhand, located in eastern India, is known for its rich tribal culture, natural beauty, and vibrant festivals. The state has a unique blend of indigenous tribal traditions and more modern cultural influences.</p>
+
+<h3>Culture</h3>
+<p>The culture of Jharkhand is heavily influenced by its tribal population, which includes communities like the Santhals, Oraons, and Mundas. Tribal dance, music, and art are significant parts of the state's cultural heritage.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Tribal Dance:</strong> Traditional dance forms like Chhau, Jhumar, and Mundari are performed during festivals and ceremonies. These dances often tell stories from mythology and tribal history.</li>
+    <li><strong>Festivals:</strong> Important festivals in Jharkhand include Sarhul, Karma, and Sohrai, which are celebrated with great enthusiasm, especially by the tribal communities.</li>
+    <li><strong>Art and Craft:</strong> Jharkhand is known for its tribal handicrafts, including pottery, bamboo crafts, and textiles. Paitkar paintings, a tribal art form, are also popular.</li>
+</ul>
+
+<h3>Food</h3>
+<p>Jharkhandi cuisine is simple and rooted in the use of locally available ingredients like rice, pulses, and vegetables. Many dishes are influenced by tribal traditions, and the food is often cooked using earthen pots and traditional methods.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Dhuska:</strong> A popular fried dish made from rice flour and lentils, often served with aloo curry.</li>
+    <li><strong>Chilka Roti:</strong> A type of pancake made from rice flour, usually served with chutneys or curries.</li>
+    <li><strong>Rugra:</strong> A dish made from a type of mushroom found in the forests of Jharkhand, considered a delicacy by the tribal communities.</li>
+    <li><strong>Handia:</strong> A traditional rice beer consumed by tribal communities, especially during festivals and celebrations.</li>
+    <li><strong>Thekua:</strong> A sweet dish made from wheat flour, sugar, and coconut, often prepared during festivals like Chhath.</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>Jharkhand's traditions are deeply rooted in its tribal heritage, with a focus on nature worship, community gatherings, and ancestral rituals. The state also celebrates major Hindu festivals alongside its tribal customs.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Sarhul:</strong> A spring festival where the tribal communities worship trees and nature. It marks the beginning of the new year for many tribes in Jharkhand.</li>
+    <li><strong>Karma:</strong> Celebrated during the monsoon, this festival is dedicated to the worship of the Karma tree, symbolizing fertility and prosperity.</li>
+    <li><strong>Chhath Puja:</strong> A significant Hindu festival dedicated to the sun god, widely celebrated across Jharkhand, especially among the non-tribal population.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>The traditional attire in Jharkhand is simple yet colorful, reflecting both tribal and non-tribal influences. The clothing is usually designed for comfort in the state's warm climate.</p>
+
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Sari:</strong> Tribal women often wear brightly colored saris, draped in a unique style. These saris are usually made from cotton or tussar silk, a famous textile from Jharkhand.</li>
+    <li><strong>Parthan and Panchi:</strong> In some tribal communities, women wear traditional garments known as Parthan (lower garment) and Panchi (upper garment).</li>
+</ul>
+
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Dhoti and Kurta:</strong> The traditional attire for men includes a dhoti and kurta, often worn during festivals and religious ceremonies.</li>
+    <li><strong>Bhagwan:</strong> Tribal men sometimes wear a bhagwan, a type of loincloth, along with a turban or headgear during special occasions.</li>
+</ul>
+
+<h3>Language</h3>
+<p>Jharkhand is home to a variety of languages, with Hindi being the official language. The tribal communities have their own languages and dialects that are an important part of the state's cultural identity.</p>
+
+<h4>Languages Spoken:</h4>
+<ul>
+    <li><strong
+`;
+                    break;
+                case 'Odisha':
+                    stateInfo = `
+                        <h2>Odisha</h2>
+                        <img src="images/odisha.jpg" alt="Odisha" class="state-image">
+                        <p>Odisha is known for its temples, beaches, and rich cultural heritage. It offers a blend of historical and natural attractions.</p>
+                        <p><strong>Key Attractions:</strong> Jagannath Temple, Puri Beach, Konark Sun Temple.</p>
+                        
+<p>Odisha, located on the eastern coast of India, is known for its rich cultural heritage, ancient temples, classical dance forms, and vibrant festivals. The state has a deep connection to its historical and religious roots, with traditions that span centuries.</p>
+
+<h3>Culture</h3>
+<p>Odisha's culture is a blend of tribal traditions and classical Indian influences. The state is particularly known for its contributions to classical arts, including dance, sculpture, and literature. Odisha is home to many ancient temples and is deeply rooted in its religious and spiritual heritage.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Classical Dance:</strong> Odisha is the birthplace of Odissi, one of the eight classical dance forms of India. Odissi is known for its graceful movements and deep spiritual themes, often depicting stories from Hindu mythology.</li>
+    <li><strong>Temple Architecture:</strong> The state is famous for its ancient temple architecture, particularly the Sun Temple at Konark and the Jagannath Temple in Puri. These temples reflect the Kalinga style of architecture, characterized by intricate carvings and majestic structures.</li>
+    <li><strong>Tribal Culture:</strong> Odisha is home to a large tribal population, and its tribal culture significantly influences the state's traditions, music, and festivals. Each tribe has its own unique customs, dances, and art forms.</li>
+    <li><strong>Festivals:</strong> Major festivals celebrated in Odisha include Rath Yatra (dedicated to Lord Jagannath), Durga Puja, and Pana Sankranti. The state's festivals are often marked by grand processions, religious ceremonies, and cultural performances.</li>
+</ul>
+
+<h3>Food</h3>
+<p>Odisha's cuisine is diverse, with a focus on rice, lentils, and locally sourced vegetables. The food is known for its subtle and balanced use of spices, making it flavorful yet not overly spicy. Seafood, especially fish, is a staple in the coastal regions of the state.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Pakhala Bhata:</strong> A traditional dish of fermented rice served with water, often accompanied by fried vegetables and fish. It is especially popular during the summer months.</li>
+    <li><strong>Dalma:</strong> A dish made from lentils and vegetables, cooked with mild spices. It is a wholesome and nutritious meal that is commonly served with rice.</li>
+    <li><strong>Chhena Poda:</strong> A traditional dessert made from baked cheese, sugar, and cardamom. It is one of Odisha's most famous sweets.</li>
+    <li><strong>Machha Besara:</strong> A fish curry prepared with mustard paste and turmeric, offering a tangy and flavorful taste.</li>
+    <li><strong>Rasagola:</strong> Odisha is known for its version of Rasagola, a soft and spongy cheese-based sweet, believed to have originated in the state.</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>Odisha's traditions are deeply tied to its religious and spiritual practices. The state's temples, festivals, and rituals reflect its devotion to Hindu gods and goddesses, particularly Lord Jagannath.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Rath Yatra:</strong> The Rath Yatra, or Chariot Festival, is one of Odisha's most significant festivals. It involves the procession of Lord Jagannath, his brother Balabhadra, and sister Subhadra in massive chariots through the streets of Puri.</li>
+    <li><strong>Chhau Dance:</strong> This traditional martial dance form originated in Odisha and is performed during festivals, often depicting scenes from the Ramayana and Mahabharata.</li>
+    <li><strong>Pattachitra:</strong> A traditional painting style that originates from Odisha, often depicting religious themes and mythological stories on cloth or dried palm leaves.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>The traditional attire of Odisha reflects its cultural richness and is often made from locally woven fabrics like cotton and silk. Handloom weaving, particularly the Ikat style, is highly regarded in the state.</p>
+
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Sambalpuri Saree:</strong> Odisha is famous for its Sambalpuri sarees, which are woven using the Ikat technique. These sarees are known for their intricate patterns and vibrant colors.</li>
+    <li><strong>Pattachitra Saree:</strong> Women often wear sarees with Pattachitra designs, which are hand-painted with mythological themes and motifs.</li>
+</ul>
+
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Dhoti and Kurta:</strong> The traditional attire for men includes a dhoti (a long piece of cloth worn around the waist) and a kurta (a long shirt). This attire is worn during religious ceremonies and festivals.</li>
+    <li><strong>Pagri:</strong> A traditional headgear, often worn during festivals or special occasions, symbolizing honor and respect.</li>
+</ul>
+
+<h3>Language</h3>
+<p>Odisha's official language is Odia, which has a rich literary history and is one of the oldest languages in India. The language plays an integral role in the state's cultural identity.</p>
+
+<h4>Languages Spoken:</h4>
+<ul>
+    <li><strong>Odia:</strong> The primary language spoken by the majority of the population, with a rich tradition of literature and poetry.</li>
+    <li><strong>Hindi and English:</strong> Widely spoken and understood, especially in urban areas and for official communication.</li>
+    <li><strong>Tribal Languages:</strong> Several indigenous tribes in Odisha have their own languages, such as Santali and Kui, which are spoken in specific regions.</li>
+</ul>
+`;
+                    break;
+                case 'Tripura':
+                    stateInfo = `
+                        <h2>Tripura</h2>
+                        <img src="images/tripura.jpg" alt="Tripura" class="state-image">
+                        <p>Tripura is known for its natural beauty and rich cultural heritage. Discover its picturesque landscapes and traditional festivals.</p>
+                        <p><strong>Key Attractions:</strong> Ujjayanta Palace, Neermahal, Sepahijala Wildlife Sanctuary.</p>
+                        
+<p>Tripura, one of the seven northeastern states of India, is known for its vibrant culture, unique traditions, and diverse tribal communities. The state reflects a blend of tribal customs and Bengali influences due to its geographical proximity to West Bengal and Bangladesh.</p>
+
+<h3>Culture</h3>
+<p>Tripura has a rich cultural heritage, primarily influenced by the numerous tribes residing in the region. The state’s culture is a mix of tribal traditions, Bengali influences, and royal history, as it was ruled by the Manikya dynasty for centuries.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Tribal Influence:</strong> Tripura is home to several indigenous tribes, including the Tripuri, Reang, Jamatia, and Noatia. Each tribe has its own unique customs, traditions, and languages.</li>
+    <li><strong>Dance and Music:</strong> Traditional dances like the Garia, Hojagiri, and Lebang Boomani are central to Tripura’s culture. These dances are performed during festivals and important ceremonies.</li>
+    <li><strong>Handicrafts:</strong> The state is famous for its bamboo and cane handicrafts. Tripura's artisans create intricate designs in baskets, furniture, and mats using bamboo.</li>
+    <li><strong>Festivals:</strong> Festivals like Garia Puja, Kharchi Puja, and Durga Puja are celebrated with great enthusiasm in Tripura, showcasing the state's religious and cultural diversity.</li>
+</ul>
+
+<h3>Food</h3>
+<p>Tripuri cuisine is a blend of tribal and Bengali influences. It is known for its simplicity and the use of fresh, locally sourced ingredients. Rice is the staple food, and bamboo shoots and fermented fish are commonly used in many dishes.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Bamboo Shoot Curry:</strong> A traditional dish made with bamboo shoots, often cooked with fish or pork, giving it a unique flavor.</li>
+    <li><strong>Berma (Fermented Fish):</strong> Berma is an essential ingredient in many Tripuri dishes. It is fermented fish used to add flavor to curries and chutneys.</li>
+    <li><strong>Mui Borok:</strong> A popular dish made with Berma, green chilies, and seasonal vegetables, usually served with rice.</li>
+    <li><strong>Rice Beer:</strong> A local alcoholic beverage, rice beer is brewed and consumed during festivals and special occasions.</li>
+    <li><strong>Panch Phoron Tarkari:</strong> A Bengali-style mixed vegetable curry, flavored with the five-spice mix called Panch Phoron.</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>Traditions in Tripura are deeply rooted in tribal customs and religious practices. The state's traditional practices are reflected in its festivals, social ceremonies, and tribal gatherings.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Garia Puja:</strong> A major tribal festival celebrated in April to worship the deity Baba Garia, symbolizing prosperity and happiness. The festival includes music, dance, and sacrifices.</li>
+    <li><strong>Kharchi Puja:</strong> A Hindu festival in Tripura, performed to worship the fourteen gods of the royal family. It is celebrated with rituals, animal sacrifices, and offerings to the gods.</li>
+    <li><strong>Tribal Rituals:</strong> Tribal communities in Tripura perform various rituals and ceremonies, including the Hojagiri dance performed by the Reang tribe during religious festivals.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>The traditional attire of Tripura reflects its tribal identity and the influence of the state's natural surroundings. Most of the traditional clothing is made from handwoven fabrics produced locally by the tribal communities.</p>
+
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Rignai:</strong> A traditional handwoven cloth worn by tribal women as a wrap-around skirt. It is typically paired with a blouse and a Risa (a decorative cloth worn around the upper body).</li>
+    <li><strong>Pachra:</strong> A traditional draped garment worn by women, usually for special occasions and festivals.</li>
+</ul>
+
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Dhuti or Rikutu Gamcha:</strong> Men in Tripura traditionally wear a dhuti or a Rikutu Gamcha, a handwoven loincloth, paired with a shirt or a traditional Kurta.</li>
+    <li><strong>Turban:</strong> Men may also wear a traditional head covering or turban during festivals and ceremonies.</li>
+</ul>
+
+<h3>Language</h3>
+<p>Tripura is a linguistically diverse state with several languages spoken by different tribal communities, along with the official language Bengali.</p>
+
+<h4>Languages Spoken:</h4>
+<ul>
+    <li><strong>Bengali:</strong> The most widely spoken language in Tripura, especially in urban areas and used for official communication.</li>
+    <li><strong>Kokborok:</strong> The language of the Tripuri tribe, Kokborok is one of the major tribal languages in the state.</li>
+    <li><strong>Other Tribal Languages:</strong> Other languages spoken by tribal communities include Reang, Chakma, and Halam.</li>
+    <li><strong>Hindi and English:</strong> Widely understood and spoken in administrative and educational contexts.</li>
+</ul>
+`;
+                    break;
+                case 'Meghalaya':
+                    stateInfo = `
+                        <h2>Meghalaya</h2>
+                        <img src="images/meghalaya.jpg" alt="Meghalaya" class="state-image">
+                        <p>Meghalaya is famous for its stunning landscapes, high rainfall, and vibrant culture. Experience its lush green hills and traditional festivals.</p>
+                        <p><strong>Key Attractions:</strong> Cherrapunji, Mawlynnong, Living Root Bridges.</p>
+                        
+<p>Meghalaya, known as the "Abode of Clouds," is a state in northeastern India. It is renowned for its natural beauty, indigenous cultures, and tribal traditions.</p>
+
+<h3>Culture</h3>
+<p>Meghalaya's culture is shaped by its indigenous tribes, mainly the Khasi, Garo, and Jaintia. Each tribe has its own distinct traditions, customs, and practices. The people of Meghalaya celebrate a range of festivals, emphasizing community, nature, and their unique heritage.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Matriarchal Society:</strong> Meghalaya is known for its matrilineal society, particularly among the Khasi and Jaintia tribes. Property and lineage are traced through the women, and the youngest daughter inherits the family property.</li>
+    <li><strong>Folk Music and Dance:</strong> Traditional music and dance are integral to the state's culture, with festivals and ceremonies often featuring drumming, flutes, and dances such as Ka Shad Suk Mynsiem and Wangala.</li>
+    <li><strong>Festivals:</strong> Some of the most important festivals include the Khasi festival Shad Suk Mynsiem, the Jaintia Behdienkhlam, and the Garo Wangala, each celebrating the agrarian cycle and their connection to nature.</li>
+    <li><strong>Art and Craft:</strong> The people of Meghalaya are skilled in handicrafts like weaving, basket-making, and bamboo work. Traditional Khasi and Garo shawls are famous for their unique designs.</li>
+</ul>
+
+<h3>Food</h3>
+<p>Meghalayan cuisine is simple yet flavorful, often involving rice, pork, and locally grown vegetables. The cuisine reflects the local ingredients and cooking styles of the state's indigenous tribes.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Jadoh:</strong> A popular Khasi dish made from rice and pork, seasoned with local spices. It is often served during festivals and special occasions.</li>
+    <li><strong>Dohneiiong:</strong> A Khasi pork curry made with black sesame seeds, known for its rich flavor.</li>
+    <li><strong>Nakham Bitchi:</strong> A Garo dish made from dried fish cooked in a spicy broth, often served as an appetizer.</li>
+    <li><strong>Pukhlein:</strong> A traditional Khasi snack made from rice flour and jaggery, deep-fried to create a crispy texture.</li>
+    <li><strong>Minil Songa:</strong> A sticky rice dish, often cooked by the Garo tribe, known for its unique texture and flavor.</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>Meghalaya's traditions are deeply rooted in its tribal heritage, with strong ties to nature and communal life. Traditional practices often revolve around agriculture, festivals, and religious customs.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Shad Suk Mynsiem:</strong> A Khasi spring festival celebrated with traditional dances and rituals, expressing gratitude to the divine for a bountiful harvest.</li>
+    <li><strong>Wangala:</strong> The Garo post-harvest festival, where people celebrate with drumming, dancing, and singing to honor the Sun God, Misi Saljong.</li>
+    <li><strong>Behdienkhlam:</strong> A major festival of the Jaintia people, celebrated to drive away evil spirits and pray for a good harvest.</li>
+    <li><strong>Nature Worship:</strong> The indigenous people of Meghalaya have a deep connection with nature, which is often reflected in their religious practices and festivals.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>The traditional attire of Meghalaya varies by tribe, with unique styles and patterns for men and women.</p>
+
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Jainsem:</strong> The traditional dress of Khasi women, consisting of two pieces of cloth worn over the shoulders and fastened with a brooch, often accompanied by a blouse underneath.</li>
+    <li><strong>Dhara:</strong> Jaintia women wear the Dhara, a long, colorful dress, typically adorned with intricate patterns and jewelry during special occasions.</li>
+    <li><strong>Dakmanda:</strong> Garo women wear a wrap-around cloth called Dakmanda, paired with a blouse, especially during festive occasions.</li>
+</ul>
+
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Jymphong:</strong> Khasi men traditionally wear a long-sleeved, knee-length jacket called Jymphong, paired with a sarong-like lower garment.</li>
+    <li><strong>Sikkim:</strong> Garo men wear a loincloth known as Sikkim, often with traditional headgear during festivals and dances.</li>
+</ul>
+
+<h3>Language</h3>
+<p>Meghalaya is home to several languages, with each tribe having its own language or dialect. The most prominent languages spoken in the state are Khasi, Garo, and Jaintia, alongside other regional languages.</p>
+
+<h4>Languages Spoken:</h4>
+<ul>
+    <li><strong>Khasi:</strong> Spoken by the Khasi tribe, Khasi is one of the major languages of Meghalaya and is written in the Latin script.</li>
+    <li><strong>Garo:</strong> The Garo language, spoken by the Garo tribe, is also widely used in the state and written in the Latin script.</li>
+    <li><strong>Jaintia (Pnar):</strong> The Jaintia people speak the Pnar language, which is closely related to Khasi.</li>
+    <li><strong>English:</strong> English is the official language of Meghalaya and is widely used in education and administration.</li>
+</ul>
+`;
+                    break;
+                case 'Nagaland':
+                    stateInfo = `
+                        <h2>Nagaland</h2>
+                        <img src="images/nagaland.jpg" alt="Nagaland" class="state-image">
+                        <p>Nagaland is known for its diverse tribal culture and beautiful landscapes. Explore the unique traditions and natural beauty.</p>
+                        <p><strong>Key Attractions:</strong> Kohima, Dimapur, Hornbill Festival.</p>
+                       
+<p>Nagaland, located in the northeastern region of India, is known for its diverse tribal culture, vibrant festivals, and rich traditions. The state is home to several indigenous tribes, each with its own unique customs, dress, and language.</p>
+
+<h3>Culture</h3>
+<p>Nagaland's culture is characterized by its deep connection to tribal customs, folklore, and traditional art forms. The state is known for its vibrant festivals, dances, and music, which reflect its rich cultural heritage.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Tribal Diversity:</strong> Nagaland is home to 16 major tribes, each with its own distinct culture, language, and customs. Some of the prominent tribes include the Ao, Angami, Sema, Konyak, and Lotha tribes.</li>
+    <li><strong>Folk Music and Dance:</strong> Music and dance play a crucial role in Naga culture, with traditional dances often performed during festivals. War dances, harvest dances, and victory dances are commonly seen.</li>
+    <li><strong>Festivals:</strong> Festivals in Nagaland are vibrant celebrations of tribal traditions. The most famous festival is the Hornbill Festival, which showcases the diverse culture of Naga tribes through music, dance, crafts, and food.</li>
+    <li><strong>Art and Craft:</strong> Nagaland is known for its handloom and handicrafts, including traditional weaving, wood carving, and basketry. Naga shawls, in particular, are famous for their intricate designs and patterns.</li>
+</ul>
+
+<h3>Food</h3>
+<p>Naga cuisine is unique and diverse, heavily influenced by the region’s natural resources and tribal preferences. The food is known for its simplicity, use of fresh ingredients, and distinct flavors, often featuring meat, rice, and fermented products.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Rice:</strong> Rice is the staple food of Nagaland and is served with almost every meal, often accompanied by vegetables or meat.</li>
+    <li><strong>Smoked Meat:</strong> Nagas are known for their love of smoked and dried meats, especially pork, which is often cooked with bamboo shoots and fermented soybean (akhuni).</li>
+    <li><strong>Fish:</strong> Fermented fish and fresh fish are commonly used in Naga dishes, often prepared with herbs and spices.</li>
+    <li><strong>Axone (Akhuni):</strong> A fermented soybean dish, axone is a popular ingredient in Naga cuisine, used to enhance the flavor of meat or vegetable dishes.</li>
+    <li><strong>Zutho:</strong> A traditional rice beer, zutho is a popular beverage consumed during festivals and social gatherings.</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>Nagaland’s traditions are deeply rooted in its tribal customs and community-oriented lifestyle. Traditional practices are preserved and passed down through generations, particularly in the form of festivals, rituals, and ceremonies.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Hornbill Festival:</strong> Celebrated every December, this festival is a grand display of Naga culture, bringing together different tribes to showcase their traditions through performances, crafts, and food.</li>
+    <li><strong>Morung System:</strong> The morung is a traditional communal dormitory where young boys are taught the customs, traditions, and responsibilities of their tribe.</li>
+    <li><strong>Traditional Headhunting Practices:</strong> While no longer practiced, headhunting was once a significant part of Naga culture, symbolizing bravery and victory in warfare.</li>
+    <li><strong>Folk Art and Storytelling:</strong> Oral traditions, folklore, and storytelling are vital aspects of Naga heritage, used to pass down history and cultural values.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>Naga traditional attire is vibrant and often signifies the wearer’s tribe, social status, and achievements. Each tribe has its own distinct style of dress and accessories.</p>
+
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Mechala:</strong> A wraparound skirt worn by Naga women, often adorned with colorful patterns and tribal motifs, paired with a blouse.</li>
+    <li><strong>Jewelry:</strong> Women often wear traditional jewelry made from beads, shells, and metals. Necklaces, bangles, and earrings are common accessories.</li>
+</ul>
+
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Shawls:</strong> Naga men wear distinctive handwoven shawls, with each tribe having its own design. The patterns and colors on the shawl represent the wearer’s tribe and social status.</li>
+    <li><strong>Headgear:</strong> Traditional Naga headgear is often made from bamboo, feathers, and animal horns, symbolizing bravery and masculinity.</li>
+</ul>
+
+<h3>Language</h3>
+<p>Nagaland is a linguistically diverse state, with each tribe having its own distinct language. The state has more than 20 languages and several dialects.</p>
+
+<h4>Languages Spoken:</h4>
+<ul>
+    <li><strong>Nagamese:</strong> A Creole language derived from Assamese, Nagamese serves as the lingua franca of Nagaland, used for communication between different tribes.</li>
+    <li><strong>English:</strong> The official language of Nagaland, used for education, administration, and formal communication.</li>
+    <li><strong>Tribal Languages:</strong> Each tribe has its own language or dialect, such as Ao, Angami, Sumi, and Lotha, which are spoken within the tribal communities.</li>
+</ul>
+`;
+                    break;
+                case 'Sikkim':
+                    stateInfo = `
+                        <h2>Sikkim</h2>
+                        <img src="images/sikkim.jpg" alt="Sikkim" class="state-image">
+                        <p>Sikkim is known for its breathtaking views of the Himalayas and rich biodiversity. Discover its serene beauty and cultural richness.</p>
+                        <p><strong>Key Attractions:</strong> Gangtok, Tsomgo Lake, Yumthang Valley.</p>
+                        
+<p>Sikkim, located in the northeastern part of India, is known for its stunning landscapes, diverse cultural heritage, and harmonious blend of ethnic traditions. With a rich history influenced by Tibetan, Nepali, and Bhutanese cultures, Sikkim is a land of vibrant festivals, distinct art forms, and religious practices.</p>
+
+<h3>Culture</h3>
+<p>Sikkim's culture is shaped by its ethnic diversity, which includes Lepchas, Bhutias, and Nepalis. Each community contributes to the state's unique cultural identity, creating a harmonious blend of traditions.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Buddhism and Hinduism:</strong> Sikkim has a strong Buddhist influence, especially due to its proximity to Tibet. Monasteries like Rumtek and Pemayangtse are significant cultural and religious sites. Hinduism is also widely practiced by the Nepali population.</li>
+    <li><strong>Festivals:</strong> Major festivals include Losar (Tibetan New Year), Saga Dawa, Dasain (celebrated by the Nepali community), and the colorful Pang Lhabsol, which commemorates the guardian deity of Sikkim.</li>
+    <li><strong>Folk Music and Dance:</strong> Traditional music and dance, such as the Lepcha’s “Zo-Mal-Lok,” the Bhutia’s “Tashi Sabdo,” and the Nepali’s “Maruni” dance, play an integral role in Sikkimese celebrations.</li>
+</ul>
+
+<h3>Food</h3>
+<p>Sikkimese cuisine is a delightful blend of flavors influenced by Tibetan, Nepali, and Bhutanese culinary traditions. The cuisine is simple, nutritious, and often includes a variety of fermented foods.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Momo:</strong> A popular dumpling dish filled with vegetables or meat, served with spicy chutney.</li>
+    <li><strong>Thukpa:</strong> A hearty noodle soup with vegetables and meat, a staple in the cold mountain regions.</li>
+    <li><strong>Phagshapa:</strong> A traditional pork dish cooked with radishes and dried chilies, common among the Bhutia community.</    </li>
+    <li><strong>Gundruk:</strong> A fermented leafy vegetable often used in soups and side dishes, popular in Nepali cuisine.</li>
+    <li><strong>Sel Roti:</strong> A traditional Nepali bread made from fermented rice batter, typically prepared during festivals.</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>Sikkim's traditions are closely tied to its religious and cultural practices. Festivals, rituals, and customs are integral to the social fabric of the state.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Losar:</strong> The Tibetan New Year, celebrated with feasts, dances, and rituals at Buddhist monasteries.</li>
+    <li><strong>Pang Lhabsol:</strong> A festival that honors the protective deity of Sikkim, Mt. Kanchenjunga, with prayers and masked dances.</li>
+    <li><strong>Saga Dawa:</strong> A significant Buddhist festival that celebrates the life of Buddha with prayer, fasting, and processions.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>The traditional attire of Sikkim reflects the diverse ethnic communities that inhabit the state. Each community has its own distinct dress, often worn during festivals and religious ceremonies.</p>
+
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Kho (Bakhu):</strong> A traditional dress worn by Bhutia and Lepcha women, resembling a loose cloak fastened at the neck and waist with a belt, often paired with a silk blouse.</li>
+    <li><strong>Gho:</strong> Nepali women often wear saris and blouses, while some may wear “chaubandi cholo,” a Nepali traditional attire for festivals.</li>
+</ul>
+
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Kho:</strong> Similar to the women's version, men from Bhutia and Lepcha communities wear a long robe fastened with a belt, usually paired with loose trousers.</li>
+    <li><strong>Daura Suruwal:</strong> Nepali men wear the traditional daura suruwal, a knee-length double-breasted shirt worn with tight trousers.</li>
+</ul>
+
+<h3>Language</h3>
+<p>Sikkim is linguistically diverse, with several languages spoken by different ethnic groups. The state's multilingual nature reflects its cultural diversity.</p>
+
+<h4>Languages Spoken:</h4>
+<ul>
+    <li><strong>Nepali:</strong> Nepali is the most widely spoken language in Sikkim and serves as the lingua franca of the state.</li>
+    <li><strong>Lepcha:</strong> Spoken by the indigenous Lepcha community, it is one of the official languages of Sikkim.</li>
+    <li><strong>Sikkimese (Bhutia):</strong> Sikkimese, also called Bhutia language, is spoken by the Bhutia community and has Tibetan influences.</li>
+    <li><strong>English and Hindi:</strong> Both are widely spoken and used for education, administration, and communication with tourists.</li>
+</ul>
+`;
+                    break;
+                case 'Arunachal Pradesh':
+                    stateInfo = `
+                        <h2>Arunachal Pradesh</h2>
+                        <img src="images/arunachal-pradesh.jpg" alt="Arunachal Pradesh" class="state-image">
+                        <p>Arunachal Pradesh is known for its pristine landscapes and vibrant tribal cultures. Explore its scenic beauty and cultural diversity.</p>
+                        <p><strong>Key Attractions:</strong> Tawang Monastery, Bomdila, Ziro Valley.</p>
+                        <h2>Arunachal Pradesh</h2>
+<p>Arunachal Pradesh, located in the northeastern part of India, is known for its rich cultural diversity, vibrant traditions, and stunning natural landscapes. The state is home to numerous tribes, each with its unique cultural heritage.</p>
+
+<h3>Culture</h3>
+<p>Arunachal Pradesh is a culturally diverse state with 26 major tribes and over 100 sub-tribes. Each tribe has its own customs, traditions, and festivals, contributing to the state’s rich cultural mosaic. The state's culture is deeply rooted in its tribal heritage, with each tribe practicing its own form of art, music, and dance.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Festivals:</strong> Festivals in Arunachal Pradesh are celebrated with much enthusiasm, often associated with the agricultural calendar. Some prominent festivals include Solung, Losar, Dree, and Nyokum.</li>
+    <li><strong>Folk Music and Dance:</strong> Each tribe has its own traditional music and dance forms, which are performed during festivals and special occasions. The dances are often accompanied by folk instruments and are a way to express the people’s connection to nature and their ancestors.</li>
+    <li><strong>Tribal Handicrafts:</strong> Arunachal Pradesh is famous for its handloom and handicraft traditions, including weaving, basketry, and wood carving. These crafts often reflect the traditional lifestyle and natural surroundings of the people.</li>
+    <li><strong>Religious Practices:</strong> The majority of the population follows indigenous religions, where nature and ancestor worship are common. There is also a significant presence of Buddhism, especially among tribes like the Monpa and Sherdukpen.</li>
+</ul>
+
+<h3>Food</h3>
+<p>Arunachal Pradesh’s cuisine is simple yet diverse, reflecting the agricultural practices and forest-based lifestyle of its people. Rice is the staple food, often accompanied by vegetables, meat, and bamboo shoots.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Thukpa:</strong> A noodle soup of Tibetan origin, commonly consumed by the Monpa tribe. It is made with vegetables, meat, and local spices.</li>
+    <li><strong>Apong:</strong> A traditional rice beer brewed by the tribal communities, especially during festivals and celebrations.</li>
+    <li><strong>Bamboo Shoot Curry:</strong> Bamboo shoots are a common ingredient in Arunachali cuisine, used in a variety of dishes, often cooked with meat and local herbs.</li>
+    <li><strong>Pika Pila:</strong> A traditional pickle made from bamboo shoots, pork fat, and chilies, typically enjoyed by the Apatani tribe.</li>
+    <li><strong>Chura Sabzi:</strong> A curry made with fermented cheese and spinach, popular among the Monpa tribe.</li>
+</ul>
+
+<h3
+`;
+                    break;
+                case 'Mizoram':
+                    stateInfo = `
+                        <h2>Mizoram</h2>
+                        <img src="images/mizoram.jpg" alt="Mizoram" class="state-image">
+                        <p>Mizoram is known for its lush green hills and tribal culture. Experience the natural beauty and traditional festivals.</p>
+                        <p><strong>Key Attractions:</strong> Aizawl, Champhai, Murlen National Park.</p>
+                        
+<p>Mizoram, located in the northeastern part of India, is known for its rich cultural heritage, tribal traditions, and scenic landscapes. The state is inhabited by various ethnic tribes, and its culture is deeply rooted in nature and community life.</p>
+
+<h3>Culture</h3>
+<p>Mizoram's culture is characterized by its indigenous tribal customs, music, dance, and festivals. The people of Mizoram, known as Mizos, follow age-old traditions that reflect their strong connection to nature and their harmonious way of life.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Tribal Heritage:</strong> Mizoram is home to several tribes, the largest being the Lusei, Hmar, and Paite tribes. Each tribe has its unique traditions and practices.</li>
+    <li><strong>Folk Music and Dance:</strong> Mizoram's culture is rich in folk music and dance, with the Cheraw (Bamboo Dance) being the most famous. Other popular dances include Khuallam and Chheihlam.</li>
+    <li><strong>Festivals:</strong> Mizoram celebrates several traditional festivals, such as Chapchar Kut, Mim Kut, and Pawl Kut, which are harvest festivals celebrated with singing, dancing, and feasting.</li>
+</ul>
+
+<h3>Food</h3>
+<p>Mizo cuisine is simple, organic, and closely tied to the region's agricultural practices. The food is often steamed or boiled, with minimal use of oil and spices, highlighting the natural flavors of the ingredients.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Bai:</strong> A popular Mizo dish made from boiled vegetables, including bamboo shoots, spinach, and mustard leaves, often cooked with pork or fish.</li>
+    <li><strong>Vawksa Rep:</strong> A dish made from smoked pork, often cooked with bamboo shoots and served with rice.</li>
+    <li><strong>Arsa Buhchiar:</strong> A traditional chicken dish, often cooked with rice and flavored with local herbs and spices.</li>
+    <li><strong>Paanch Phoron Tarka:</strong> A stir-fry of vegetables and greens seasoned with a five-spice blend (paanch phoron).</li>
+    <li><strong>Zu (Tea):</strong> A traditional beverage enjoyed by the Mizo people, made from tea leaves and often consumed throughout the day.</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>The traditions of Mizoram are strongly influenced by tribal values, communal living, and respect for nature. Festivals, rituals, and social customs are an integral part of Mizo life, with many practices centered around agriculture and community welfare.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Chapchar Kut:</strong> A spring festival that marks the end of jhum (shifting) cultivation. It is celebrated with traditional dances, music, and feasts.</li>
+    <li><strong>Mim Kut:</strong> A harvest festival held in honor of deceased ancestors, celebrated with music, dance, and offerings of the first harvest.</li>
+    <li><strong>Pawl Kut:</strong> Another harvest festival celebrated with dances, games, and feasting. It is a time for thanksgiving and prayer for future prosperity.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>Mizo traditional attire is colorful and beautifully woven, reflecting the cultural identity and artistic skills of the tribes. Both men and women wear clothes that are designed for comfort and practicality.</p>
+
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Puan:</strong> The traditional wraparound skirt worn by Mizo women. It is often made of handwoven cotton and features intricate designs and patterns.</li>
+    <li><strong>Kawrchei:</strong> A traditional blouse worn with the puan, typically made of cotton and worn during special occasions and festivals.</li>
+</ul>
+
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Puanchei:</strong> A wraparound garment worn by Mizo men, often accompanied by a traditional shawl (known as Ngotekherh) during formal events or festivals.</li>
+    <li><strong>Headgear and Shawls:</strong> Mizo men may also wear traditional headgear and colorful shawls during cultural events and ceremonies.</li>
+</ul>
+
+<h3>Language</h3>
+<p>The people of Mizoram primarily speak Mizo (also known as Lusei), which is the official language of the state. English is also widely spoken, especially in education and official communication.</p>
+
+<h4>Languages Spoken:</h4>
+<ul>
+    <li><strong>Mizo (Lusei):</strong> The official and most widely spoken language in Mizoram. It belongs to the Tibeto-Burman language family.</li>
+    <li><strong>English:</strong> Used in education, business, and official settings. It is understood and spoken by many people across the state.</li>
+    <li><strong>Hmar, Paite, and Other Dialects:</strong> Several other tribal languages and dialects are spoken by different ethnic groups in Mizoram.</li>
+</ul>
+`;
+                    break;
+                case 'Manipur':
+                    stateInfo = `
+                        <h2>Manipur</h2>
+                        <img src="images/manipur.jpg" alt="Manipur" class="state-image">
+                        <p>Manipur is famous for its unique culture, dance forms, and scenic beauty. Discover the rich heritage and natural attractions.</p>
+                        <p><strong>Key Attractions:</strong> Imphal, Loktak Lake, Kangla Fort.</p>
+                       
+<p>Manipur, located in the northeastern part of India, is known for its rich cultural heritage, traditional practices, and unique art forms. The state is often called the "Jewel of India" due to its scenic beauty and vibrant culture.</p>
+
+<h3>Culture</h3>
+<p>Manipur’s culture is a beautiful blend of indigenous practices, classical dance forms, and festivals. It is deeply rooted in its history, mythology, and religious traditions. The state is also known for its contribution to India's classical dance heritage.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Manipuri Dance:</strong> One of the major classical dance forms of India, Manipuri dance is deeply devotional and often revolves around themes from the life of Lord Krishna. It is characterized by graceful, soft movements and traditional attire.</li>
+    <li><strong>Martial Arts:</strong> Thang-ta is a traditional Manipuri martial art that combines armed combat (sword and spear) and unarmed combat. It is an essential aspect of the cultural identity of Manipur.</li>
+    <li><strong>Festivals:</strong> Manipur celebrates festivals like Yaoshang (similar to Holi), Lai Haraoba (a ritual festival), and Kang (Rath Yatra) with enthusiasm. These festivals are marked by cultural performances and communal celebrations.</li>
+</ul>
+
+<h3>Food</h3>
+<p>Manipuri cuisine is largely influenced by the local produce and traditional cooking methods. Rice and fish form the staple diet, along with a wide variety of green leafy vegetables and herbs.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Eromba:</strong> A spicy and tangy dish made from boiled vegetables mashed with fermented fish and served with rice.</li>
+    <li><strong>Ngari:</strong> A type of fermented fish that is a core ingredient in many Manipuri dishes, adding a unique flavor to the cuisine.</li>
+    <li><strong>Chamthong (Vegetable Stew):</strong> A healthy stew made from seasonal vegetables, flavored with fermented fish and spices.</li>
+    <li><strong>Singju:</strong> A traditional salad made from finely chopped vegetables like cabbage, lotus stem, and herbs, flavored with Ngari and chili.</li>
+    <li><strong>Kangshoi:</strong> A stew made with vegetables, fish, and plenty of greens, flavored with ginger and garlic.</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>Manipur’s traditions are heavily influenced by its folklore, mythology, and rural lifestyle. The state's rituals and cultural practices are deeply linked to its religious and historical roots.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Lai Haraoba:</strong> A traditional festival that showcases the creation stories of the Manipuri people. It is celebrated with dance, music, and rituals to appease the deities.</li>
+    <li><strong>Cheiraoba:</strong> The Manipuri New Year, celebrated in April, involves people cleaning their houses and offering food to deities, followed by a climb up the nearest hill as a symbolic gesture to rise to greater heights.</li>
+    <li><strong>Raslila:</strong> A popular Manipuri tradition where dance dramas based on the life of Lord Krishna are performed, especially during religious and cultural festivals.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>The traditional attire of Manipur is elegant and vibrant, reflecting the cultural heritage of the state. The dresses are often handwoven and include intricate designs.</p>
+
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Phanek:</strong> A traditional wrap-around skirt worn with an upper garment like a shawl or blouse. It is often woven with beautiful patterns and colors.</li>
+    <li><strong>Innaphi:</strong> A shawl draped over the shoulder, worn along with the Phanek. Innaphi is often made from silk or cotton, and is worn for both daily life and special occasions.</li>
+    <li><strong>Rani Phee:</strong> A special handwoven attire worn by women during formal events and ceremonies.</li>
+</ul>
+
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Dhoti and Kurta:</strong> Men traditionally wear a dhoti along with a kurta, a long shirt, especially during religious and cultural events.</li>
+    <li><strong>Pagri:</strong> A turban, worn by Manipuri men on formal occasions or during festivals.</li>
+</ul>
+
+<h3>Language</h3>
+<p>Manipur is home to several indigenous languages, with Manipuri (Meitei) being the most widely spoken language. The linguistic diversity reflects the rich cultural heritage of the state.</p>
+
+<h4>Languages Spoken:</h4>
+<ul>
+    <li><strong>Manipuri (Meitei):</strong> The official language of the state and one of the 22 scheduled languages of India. It is spoken by the majority of the population.</li>
+    <li><strong>Tribal Languages:</strong> Several tribes in Manipur, including the Nagas and Kukis, speak their own indigenous languages and dialects.</li>
+    <li><strong>Hindi and English:</strong> Both are widely understood and used in education, administration, and communication with non-local residents and tourists.</li>
+</ul>
+`;
+                    break;
+                case 'Andhra Pradesh':
+                    stateInfo = `
+                        <h2>Andhra Pradesh</h2>
+                        <img src="images/andhra-pradesh.jpg" alt="Andhra Pradesh" class="state-image">
+                        <p>Andhra Pradesh is known for its historic temples, beaches, and vibrant culture. Explore the state's rich history and natural beauty.</p>
+                        <p><strong>Key Attractions:</strong> Tirupati Temple, Visakhapatnam, Araku Valley.</p>
+                        
+<p>Andhra Pradesh, located in the southeastern part of India, is known for its rich cultural heritage, vibrant traditions, and diverse cuisine. The state is famous for its classical arts, religious festivals, and ancient temples.</p>
+
+<h3>Culture</h3>
+<p>Andhra Pradesh's culture is a blend of classical traditions and folk heritage. It is known for its contribution to classical dance, music, and art forms. The state has a deep connection with religious practices, temple architecture, and literature.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Classical Dance:</strong> Kuchipudi, one of India's eight classical dance forms, originated in Andhra Pradesh and is known for its graceful movements and expressive storytelling.</li>
+    <li><strong>Temple Architecture:</strong> The state is home to iconic temples like Tirumala Venkateswara Temple in Tirupati, which is one of the most visited religious sites in the world.</li>
+    <li><strong>Folk Art and Handicrafts:</strong> Kalamkari, a traditional form of hand-painted or block-printed cotton textile, and Kondapalli toys are famous traditional crafts from Andhra Pradesh.</li>
+    <li><strong>Festivals:</strong> The state celebrates various festivals such as Ugadi (Telugu New Year), Sankranti, and Dussehra with great enthusiasm, marked by special rituals, music, and dance performances.</li>
+</ul>
+
+<h3>Food</h3>
+<p>Andhra cuisine is known for its spicy flavors and wide variety of dishes, making it one of the spiciest cuisines in India. Rice is the staple food, often served with spicy curries, lentils, and chutneys.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Andhra Biryani:</strong> A spiced rice dish with marinated meat or vegetables, often served with raita and a boiled egg.</li>
+    <li><strong>Pulihora:</strong> A tangy tamarind rice dish, flavored with spices and garnished with peanuts and curry leaves.</li>
+    <li><strong>Pesarattu:</strong> A type of dosa made with green gram lentils, served with ginger chutney or sambar.</li>
+    <li><strong>Gongura Pachadi:</strong> A tangy chutney made from sorrel leaves, often eaten with rice.</li>
+    <li><strong>Kodi Kura:</strong> A spicy chicken curry made with a variety of spices and herbs.</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>The traditions of Andhra Pradesh are deeply rooted in its religious and social customs. The state's traditions are a mix of classical Hindu practices and local customs, celebrated through festivals, arts, and family events.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Ugadi:</strong> Celebrated as the Telugu New Year, Ugadi marks the start of a new calendar year, observed with prayers, special food preparations, and cultural performances.</li>
+    <li><strong>Sankranti:</strong> A harvest festival celebrated with kite flying, traditional dances, and special dishes like Pongal.</li>
+    <li><strong>Bathukamma:</strong> A floral festival celebrated by women, where they make flower arrangements and offer prayers for prosperity and well-being.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>The traditional attire of Andhra Pradesh reflects its cultural heritage and is known for its simplicity and elegance. The clothing is often made from cotton and silk fabrics suitable for the region's climate.</p>
+
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Sari:</strong> The sari is the most common traditional attire for women in Andhra Pradesh. Gadwal and Pochampally sarees, known for their intricate designs and vibrant colors, are especially popular.</li>
+    <li><strong>Langa Voni:</strong> A traditional outfit worn by young girls, consisting of a long skirt (langa) and a blouse, paired with a dupatta (voni).</li>
+</ul>
+
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Panche or Dhoti:</strong> Men traditionally wear a dhoti, paired with a kurta or shirt. The dhoti is draped in a particular style known as "Panche" in Telugu.</li>
+    <li><strong>Kurta and Pajama:</strong> During formal events and festivals, men wear a kurta paired with pajama or dhoti.</li>
+</ul>
+
+<h3>Language</h3>
+<p>Andhra Pradesh has a rich linguistic heritage, and Telugu is the primary language spoken in the state.</p>
+
+<h4>Languages Spoken:</h4>
+<ul>
+    <li><strong>Telugu:</strong> The official language of Andhra Pradesh and one of the classical languages of India, known for its melodic sound and vast literature.</li>
+    <li><strong>Urdu:</strong> Widely spoken in parts of Andhra Pradesh, especially in areas with significant Muslim populations.</li>
+    <li><strong>Hindi and English:</strong> Hindi and English are also widely spoken and understood, especially in urban areas and for business and educational purposes.</li>
+</ul>
+`;
+                    break;
+                case 'Karnataka':
+                    stateInfo = `
+                        <h2>Karnataka</h2>
+                        <img src="images/karnataka.jpg" alt="Karnataka" class="state-image">
+                        <p>Karnataka offers a rich blend of history, culture, and natural beauty. Discover its historic sites and vibrant landscapes.</p>
+                        <p><strong>Key Attractions:</strong> Hampi, Mysore Palace, Coorg.</p>
+                       
+<p>Karnataka, located in the southwestern part of India, is known for its rich cultural heritage, historical significance, and diverse traditions. The state boasts a unique blend of historical monuments, classical arts, and vibrant festivals.</p>
+
+<h3>Culture</h3>
+<p>Karnataka's culture is a rich tapestry woven from its historical, religious, and artistic influences. The state is famous for its classical music, dance forms, and historical sites.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Classical Arts:</strong> Karnataka is renowned for its contributions to classical music, particularly Carnatic music, which is one of the two main traditions of Indian classical music. The state is also known for classical dance forms like Yakshagana, a traditional theatre form combining dance, music, and drama.</li>
+    <li><strong>Literature:</strong> Kannada literature has a long history, with notable contributions from poets and writers like Kuvempu, R. K. Narayan, and U. R. Ananthamurthy.</li>
+    <li><strong>Festivals:</strong> Karnataka celebrates various festivals with great enthusiasm, including Dasara, Ganesh Chaturthi, and Ugadi. These festivals are marked by vibrant processions, music, dance, and traditional rituals.</li>
+</ul>
+
+<h3>Food</h3>
+<p>Karnataka's cuisine is diverse, reflecting the state's geographical and cultural diversity. The food is known for its distinctive flavors, often incorporating a mix of spices, lentils, and coconut.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Masala Dosa:</strong> A popular South Indian dish, masala dosa is a crispy, thin rice crepe filled with a spiced potato mixture, served with chutneys and sambar.</li>
+    <li><strong>Bisi Bele Bath:</strong> A traditional Karnataka dish made with rice, lentils, vegetables, and a special spice mix, often enjoyed with a side of yogurt or pickle.</li>
+    <li><strong>Ragi Mudde:</strong> A staple food in rural Karnataka, ragi mudde is a ball of ragi (finger millet) flour cooked with water, typically served with sambar or curry.</li>
+    <li><strong>Uttapam:</strong> A thick, savory pancake made from fermented rice and lentil batter, topped with vegetables and served with chutneys and sambar.</li>
+    <li><strong>Chiroti:</strong> A traditional sweet pastry, chiroti is a crisp, layered pastry often enjoyed with sugar syrup or milk.</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>Karnataka's traditions are deeply rooted in its historical and cultural background. The state's customs are reflected in its festivals, traditional arts, and rituals.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Dasara:</strong> Also known as Vijayadashami, Dasara is a major festival celebrated in Mysuru with grand processions, cultural performances, and the iconic Mysuru Dasara procession featuring a beautifully decorated elephant carrying the idol of Goddess Chamundeshwari.</li>
+    <li><strong>Yakshagana:</strong> A traditional dance-drama form performed in Karnataka, Yakshagana combines music, dance, and dialogue, depicting stories from Hindu epics and mythology.</li>
+    <li><strong>Handloom Weaving:</strong> Karnataka is famous for its traditional handloom weaving, including the production of Mysore silk and Ilkal sarees, known for their intricate designs and quality.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>The traditional attire of Karnataka reflects the state's cultural heritage and is designed to suit the local climate and customs.</p>
+
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Varanasi Silk Saree:</strong> A traditional garment often worn during festivals and special occasions, the saree is made from luxurious silk and features elaborate designs.</li>
+    <li><strong>Chal:</strong> In rural areas, women may wear a chal, a traditional wrap-around garment paired with a blouse, suited to the local lifestyle.</li>
+</ul>
+
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Dhoti:</strong> A traditional garment worn around the waist, paired with a shirt or kurta for formal and ceremonial occasions.</li>
+    <li><strong>Kurta and Pajama:</strong> A common outfit for men, consisting of a long shirt (kurta) and loose trousers (pajama), often worn during festivals and social events.</li>
+</ul>
+
+<h3>Language</h3>
+<p>Karnataka's linguistic landscape reflects its cultural diversity, with Kannada being the primary language spoken across the state.</p>
+
+<h4>Languages Spoken:</h4>
+<ul>
+    <li><strong>Kannada:</strong> The official language of Karnataka, Kannada is widely spoken and used for communication in education, administration, and daily life.</li>
+    <li><strong>Hindi:</strong> Spoken and understood by many, especially in urban areas and for communication with people from other parts of India.</li>
+    <li><strong>English:</strong> Commonly used in business, education, and for communication with tourists and non-Kannada speakers.</li>
+    <li><strong>Tulu and Konkani:</strong> Spoken in certain regions of the state, particularly in coastal areas and by specific communities.</li>
+</ul>
+`;
+                    break;
+                case 'Telangana':
+                    stateInfo = `
+                        <h2>Telangana</h2>
+                        <img src="images/telangana.jpg" alt="Telangana" class="state-image">
+                        <p>Telangana is known for its rich history, culture, and modernity. Explore its historic sites and vibrant cities.</p>
+                        <p><strong>Key Attractions:</strong> Hyderabad, Warangal Fort, Nagarjuna Sagar.</p>
+                        <h2>Telangana</h2>
+<p>Telangana, located in the southern part of India, is known for its rich cultural heritage, diverse traditions, and vibrant history. The state has a unique identity shaped by its historical, religious, and social influences.</p>
+
+<h3>Culture</h3>
+<p>The culture of Telangana reflects its historical significance and diverse traditions. The state is known for its classical arts, traditional music, and vibrant festivals.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Classical Arts:</strong> Telangana is known for its classical dance form, Kuchipudi, which is performed with grace and intricate movements. The state also has a tradition of classical music and folk performances.</li>
+    <li><strong>Telugu Language and Literature:</strong> Telugu is the predominant language, and the state has a rich literary tradition that includes classical and modern Telugu literature.</li>
+    <li><strong>Festivals:</strong> Telangana celebrates various festivals such as Bathukamma, Dasara, and Sankranti with great enthusiasm and traditional rituals.</li>
+</ul>
+
+<h3>Food</h3>
+<p>Telangana's cuisine is known for its bold flavors and use of spices. The food often includes rice, lentils, and a variety of vegetables, and is characterized by its distinct taste and preparation methods.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Biryani:</strong> A popular rice dish made with basmati rice, meat (chicken, mutton, or beef), and a blend of aromatic spices.</li>
+    <li><strong>Hyderabadi Dum Biryani:</strong> A special variant of biryani cooked using the dum method, known for its rich and spicy flavor.</li>
+    <li><strong>Gongura Pachadi:</strong> A tangy chutney made from gongura leaves, which are known for their sour flavor and nutritional benefits.</li>
+    <li><strong>Roti and Curry:</strong> Telangana meals often include various types of roti (flatbread) served with spicy curries made from vegetables or meat.</li>
+    <li><strong>Jonna Rotte:</strong> A traditional millet-based flatbread often enjoyed with curries and stews.</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>Telangana's traditions are a blend of its historical influences and regional practices. The state's customs are reflected in its festivals, rituals, and everyday life.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Bathukamma Festival:</strong> A unique festival celebrated by women with colorful flower arrangements, singing, and dancing. It marks the end of the monsoon season and honors the goddess Bathukamma.</li>
+    <li><strong>Dasara:</strong> Celebrated with grandeur, Dasara includes processions, traditional performances, and cultural events, highlighting the state's rich heritage.</li>
+    <li><strong>Telangana Folk Arts:</strong> The state has a tradition of folk arts such as Oggu Katha (narrative storytelling with music) and Lambadi dance, which are performed during festivals and community gatherings.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>The traditional attire of Telangana reflects its cultural heritage and is designed to suit the local climate and customs.</p>
+
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Saree:</strong> A traditional garment worn by women, often made from silk or cotton and draped in various styles. The Pochampally silk sarees from Telangana are particularly renowned.</li>
+    <li><strong>Ghagharas:</strong> A traditional skirt worn with a choli (blouse) and dupatta, often adorned with embroidery and used for festive occasions.</li>
+</ul>
+
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Dhoti and Kurta:</strong> Traditional attire consisting of a dhoti (loose trousers) paired with a kurta (long shirt), often worn for formal events and religious ceremonies.</li>
+    <li><strong>Jacket and Turban:</strong> Men may also wear a traditional jacket or vest along with a turban, particularly during cultural events and ceremonies.</li>
+</ul>
+
+<h3>Language</h3>
+<p>Telangana's linguistic landscape reflects its cultural diversity and historical influences. The primary language spoken in the state is Telugu, with several regional dialects and languages also present.</p>
+
+<h4>Languages Spoken:</h4>
+<ul>
+    <li><strong>Telugu:</strong> The official language of Telangana, widely spoken across the state and used in education, administration, and daily communication.</li>
+    <li><strong>Urdu:</strong> Spoken by a significant minority in Telangana, particularly in urban areas like Hyderabad.</li>
+    <li><strong>Hindi:</strong> Widely understood and used for communication in business and among people from different regions.</li>
+</ul>
+`;
+                    break;
+                case 'Lakshadweep':
+                    stateInfo = `
+                        <h2>Lakshadweep</h2>
+                        <img src="images/lakshadweep.jpg" alt="Lakshadweep" class="state-image">
+                        <p>Lakshadweep is known for its stunning coral atolls and pristine beaches. It's a perfect destination for beach lovers and water sports enthusiasts.</p>
+                        <p><strong>Key Attractions:</strong> Agatti Island, Bangaram Atoll, Kalapeni Island.</p>
+                        <h2>Lakshadweep</h2>
+<p>Lakshadweep, a group of islands located off the southwestern coast of India, is known for its stunning coral atolls, rich marine life, and unique cultural heritage. The islands offer a blend of traditional and modern influences in their way of life.</p>
+
+<h3>Culture</h3>
+<p>The culture of Lakshadweep reflects a mix of indigenous traditions and influences from various cultures due to its maritime location. The local culture is deeply intertwined with the sea and the island lifestyle.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Music and Dance:</strong> Traditional music and dance forms of Lakshadweep include the "Kolkkali," a group dance performed to rhythmic beats, and "Mudiyettu," a traditional ceremonial dance.</li>
+    <li><strong>Handicrafts:</strong> The islands are known for their unique handicrafts, including intricately designed shell and coral jewelry, and traditional woven mats.</li>
+    <li><strong>Festivals:</strong> Lakshadweep celebrates festivals such as Eid, Muharram, and Christmas with local customs and community gatherings, reflecting the diverse cultural influences of the region.</li>
+</ul>
+
+<h3>Food</h3>
+<p>The cuisine of Lakshadweep is heavily influenced by the islands' coastal location, featuring a variety of seafood and traditional ingredients. The food is known for its use of coconut, spices, and fresh fish.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Seafood:</strong> The islands' cuisine prominently features seafood, including fish, crabs, and prawns, often cooked with coconut and spices.</li>
+    <li><strong>Masala Fish:</strong> A popular dish made with fish marinated in a blend of spices and then cooked to perfection.</li>
+    <li><strong>Fish Curry:</strong> A spicy and flavorful curry made with fresh fish, coconut, and a variety of local spices.</li>
+    <li><strong>Fried Fish:</strong> Fish seasoned with spices and then deep-fried, commonly enjoyed as a snack or main course.</li>
+    <li><strong>Coconut Rice:</strong> A simple yet flavorful rice dish cooked with grated coconut and spices, often served with seafood or vegetables.</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>The traditions of Lakshadweep are deeply rooted in its island lifestyle and maritime heritage. The local customs and practices reflect the community's connection to the sea and their unique way of life.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Fishing Practices:</strong> Traditional fishing methods and practices are central to the local economy and culture, with various techniques used for catching seafood.</li>
+    <li><strong>Boat Racing:</strong> Traditional boat races are a popular activity, reflecting the community's maritime skills and competitive spirit.</li>
+    <li><strong>Ceremonial Events:</strong> Local ceremonies and events often involve traditional music, dance, and rituals, celebrating important religious and cultural occasions.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>The traditional attire of Lakshadweep reflects its tropical climate and maritime culture. The clothing is designed to be comfortable and suited to the warm, humid conditions of the islands.</p>
+
+<h4>For Women:</h4>
+<ul>
+    <li><strong>Burqa:</strong> Women often wear a burqa, a traditional garment that covers the body, providing modesty and protection from the sun.</li>
+    <li><strong>Salwar Kameez:</strong> A common outfit consisting of a tunic (kameez) paired with loose trousers (salwar) and a scarf (dupatta), worn for daily activities and special occasions.</li>
+</ul>
+
+<h4>For Men:</h4>
+<ul>
+    <li><strong>Lungi:</strong> Men typically wear a lungi, a traditional garment wrapped around the waist, paired with a shirt or kurta for casual and formal occasions.</li>
+    <li><strong>Shirt and Trousers:</strong> For formal events, men may wear a shirt and trousers, reflecting a blend of traditional and contemporary styles.</li>
+</ul>
+
+<h3>Language</h3>
+<p>The linguistic landscape of Lakshadweep is diverse, reflecting its cultural and historical influences. The primary languages spoken on the islands are influenced by the local population and their interactions with various cultures.</p>
+
+<h4>Languages Spoken:</h4>
+<ul>
+    <li><strong>Mahl:</strong> The principal language spoken by the local population, Mahl is used for everyday communication and is an integral part of the island's cultural identity.</li>
+    <li><strong>Hindi:</strong> Widely understood and used in administrative and educational contexts, Hindi serves as a link language in the region.</li>
+    <li><strong>English:</strong> Used for official purposes and communication with tourists, English is also taught in schools and used in business contexts.</li>
+</ul>
+`;
+                    break;
+                case 'Andaman and Nicobar Islands':
+                    stateInfo = `
+                        <h2>Andaman and Nicobar Islands</h2>
+                        <img src="images/andaman-nicobar.jpg" alt="Andaman and Nicobar Islands" class="state-image">
+                        <p>These islands are famous for their beautiful beaches, clear waters, and unique marine life. Ideal for adventure and relaxation.</p>
+                        <p><strong>Key Attractions:</strong> Havelock Island, Radhanagar Beach, Cellular Jail.</p>
+                        <h2>Andaman and Nicobar Islands</h2>
+<p>The Andaman and Nicobar Islands, located in the Bay of Bengal, are known for their diverse cultural heritage, unique traditions, and stunning natural beauty. The islands are a melting pot of various ethnic groups and cultures, offering a rich tapestry of traditions and practices.</p>
+
+<h3>Culture</h3>
+<p>The culture of the Andaman and Nicobar Islands is a blend of indigenous traditions and influences from various parts of India and the world. The islands are home to several indigenous tribes with their distinct cultures and practices.</p>
+
+<h4>Key Aspects:</h4>
+<ul>
+    <li><strong>Indigenous Tribes:</strong> The islands are home to several indigenous tribes such as the Great Andamanese, Onge, Jarwa, and Nicobarese. Each tribe has its own unique culture, traditions, and way of life.</li>
+    <li><strong>Traditional Art and Craft:</strong> The local art includes traditional crafts such as beadwork, shell jewelry, and woven items, reflecting the cultural heritage of the indigenous tribes.</li>
+    <li><strong>Festivals:</strong> The islands celebrate various festivals that reflect the diverse cultural influences, including local tribal festivals and mainstream Indian festivals like Diwali and Christmas.</li>
+</ul>
+
+<h3>Food</h3>
+<p>The cuisine of the Andaman and Nicobar Islands is influenced by the rich marine resources and diverse cultural influences. Seafood is a staple, and the food is known for its spicy and flavorful preparations.</p>
+
+<h4>Staple Dishes:</h4>
+<ul>
+    <li><strong>Seafood:</strong> Fresh seafood such as fish, crabs, and prawns is a major part of the local cuisine, often cooked with local spices and herbs.</li>
+    <li><strong>Andamanese Curry:</strong> A spicy curry made with fresh fish or seafood, flavored with local spices and coconut milk.</li>
+    <li><strong>Coconut-based Dishes:</strong> Many dishes use coconut as a primary ingredient, including coconut rice and coconut chutney.</li>
+    <li><strong>Fruit and Vegetables:</strong> The islands produce a variety of tropical fruits and vegetables, which are used in local dishes and desserts.</li>
+</ul>
+
+<h3>Tradition</h3>
+<p>The traditions of the Andaman and Nicobar Islands are deeply influenced by the indigenous tribes and their ways of life, as well as the cultural practices introduced by various settlers and colonists.</p>
+
+<h4>Notable Traditions:</h4>
+<ul>
+    <li><strong>Tribal Festivals:</strong> The indigenous tribes celebrate their own traditional festivals and rituals, which often involve music, dance, and community gatherings.</li>
+    <li><strong>Traditional Music and Dance:</strong> Music and dance play a crucial role in the cultural expressions of the indigenous tribes. Traditional performances often include drumbeats and chants.</li>
+    <li><strong>Handicrafts:</strong> Traditional handicrafts such as weaving, beadwork, and shell art are an integral part of the local culture, often used in ceremonial and daily life.</li>
+</ul>
+
+<h3>Traditional Dress</h3>
+<p>The traditional attire of the Andaman and Nicobar Islands reflects the diverse ethnic groups and their cultural heritage. Clothing varies among different tribes and communities.</p>
+
+<h4>For Indigenous Tribes:</h4>
+<ul>
+    <li><strong>Great Andamanese:</strong> Traditional attire includes minimal clothing with body paint and ornaments made from shells and beads.</li>
+    <li><strong>Jarwa:</strong> The Jarwa people traditionally wear minimal clothing, often consisting of loincloths and simple garments made from natural materials.</li>
+    <li><strong>Nicobarese:</strong> The Nicobarese wear traditional skirts and loincloths, adorned with beads and shells, and often use body paint for ceremonial purposes.</li>
+</ul>
+
+<h4>For Settlers and Tourists:</h4>
+<ul>
+    <li><strong>Casual Wear:</strong> Settlers and tourists typically wear casual, comfortable clothing suitable for the tropical climate, including light fabrics, shorts, and sandals.</li>
+</ul>
+
+<h3>Language</h3>
+<p>The Andaman and Nicobar Islands are home to a variety of languages, reflecting the diverse ethnic groups and cultural influences present in the region.</p>
+
+<h4>Languages Spoken:</h4>
+<ul>
+    <li><strong>Hindi:</strong> Widely spoken and used for official communication, education, and daily interactions.</li>
+    <li><strong>English:</strong> Also widely used, particularly in administrative, educational, and tourist contexts.</li>
+    <li><strong>Indigenous Languages:</strong> Various indigenous languages are spoken by the tribal communities, including Great Andamanese, Onge, Jarwa, and Nicobarese languages.</li>
+    <li><strong>Bengali:</strong> Spoken by some of the settlers, particularly in the Nicobar Islands, where there is a significant Bengali-speaking population.</li>
+</ul>
+`;
+                    break;
+                default:
+                    stateInfo = `
+                        <h2>State Information</h2>
+                        <p>Click on any state to see its information here.</p>`;
+            }
+
+            infoBox.innerHTML = stateInfo;
+        }
+    </script>
+
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Explore India. All rights reserved.</p>
+            <p>For more information, visit our <a href="#">About Us</a> page or contact us at <a href="mailto:info@exploreindia.com">info@exploreindia.com</a>.</p>
+        </div>
+    </footer>
+    
+
+
+
+</body>
+</html>

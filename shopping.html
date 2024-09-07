@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confluence of Traditions</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('namaste.jpg');
+            background-size: cover;
+            background-position: center -50px; /* Move the image 50px upwards */
+            background-repeat: no-repeat;
+            height: 100vh; /* Full viewport height */
+        }
+
+        header {
+            background-color: rgba(240, 230, 214, 0.8); /* Semi-transparent background */
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #664d3e;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 100px); /* Adjust for header/footer height */
+        }
+
+        .content {
+            text-align: center;
+            max-width: 800px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 300px; /* Shift the box down by 200px */
+        }
+
+        h1 {
+            color: #664d3e;
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #664d3e;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #664d3e;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #4d3325;
+        }
+
+        footer {
+            background-color: rgba(102, 77, 62, 0.8); /* Semi-transparent background */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Login/Sign-up forms styling */
+        #auth-container {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            max-width: 400px;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form label, input, button {
+            margin-bottom: 10px;
+        }
+
+        form button {
+            background-color: #664d3e;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #4d3325;
+        }
+
+        .toggle-link {
+            text-align: center;
+            color: #664d3e;
+            cursor: pointer;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Confluence of Traditions</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Products</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container" id="shop-content">
+        <div class="content">
+            <h2>Modern Forbes Shop in India</h2>
+            <p>Confluence of Traditions is a modern take on traditional Indian shopping. We offer a curated selection of handcrafted products from all over India, so you can find the perfect gift for yourself or your loved ones.</p>
+            <a href="#" class="button" onclick="showLoginForm()">Shop Now</a>
+        </div>
+    </div>
+
+    <!-- Login/Sign-Up Forms -->
+    <div class="hidden" id="auth-container">
+        <!-- Login Form -->
+        <form id="login-form">
+            <h2>Login</h2>
+            <label for="login-email">Email:</label>
+            <input type="email" id="login-email" name="email" required>
+
+            <label for="login-password">Password:</label>
+            <input type="password" id="login-password" name="password" required>
+
+            <button type="submit">Login</button>
+            <p class="toggle-link" onclick="showSignUpForm()">Don't have an account? Sign up</p>
+        </form>
+
+        <!-- Sign Up Form -->
+        <form id="sign-up-form" class="hidden">
+            <h2>Sign Up</h2>
+            <label for="sign-up-name">Name:</label>
+            <input type="text" id="sign-up-name" name="name" required>
+
+            <label for="sign-up-email">Email:</label>
+            <input type="email" id="sign-up-email" name="email" required>
+
+            <label for="sign-up-password">Password:</label>
+            <input type="password" id="sign-up-password" name="password" required>
+
+            <label for="sign-up-confirm-password">Confirm Password:</label>
+            <input type="password" id="sign-up-confirm-password" name="confirm-password" required>
+
+            <button type="submit">Sign Up</button>
+            <p class="toggle-link" onclick="showLoginForm()">Already have an account? Login</p>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Confluence of Traditions. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function showLoginForm() {
+            document.getElementById('shop-content').style.display = 'none';
+            document.getElementById('auth-container').style.display = 'block';
+            document.getElementById('login-form').classList.remove('hidden');
+            document.getElementById('sign-up-form').classList.add('hidden');
+        }
+
+        function showSignUpForm() {
+            document.getElementById('login-form').classList.add('hidden');
+            document.getElementById('sign-up-form').classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>

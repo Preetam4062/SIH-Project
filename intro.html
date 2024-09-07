@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to India</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap">
+    <link rel="stylesheet" href="intro.css">
+    <style>
+        /* CSS to position the logo */
+        .logo {
+            position: absolute;
+            top: 20px; /* Adjust top position */
+            left: 20px; /* Adjust left position */
+            width: 100px; /* Adjust size as needed */
+            height: auto;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        /* Chatbot styles */
+        #chatbot-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #ff9900;
+            color: white;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #chatbox {
+            position: fixed;
+            bottom: 90px;
+            right: 20px;
+            width: 300px;
+            max-height: 400px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: none;
+            flex-direction: column;
+            justify-content: space-between;
+            overflow: hidden;
+        }
+
+        #chatbox header {
+            background-color: #ff9900;
+            padding: 10px;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        #chatbox .messages {
+            padding: 10px;
+            height: 300px;
+            overflow-y: auto;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        #chatbox .input-box {
+            display: flex;
+            border-top: 1px solid #ccc;
+        }
+
+        #chatbox .input-box input {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            font-size: 14px;
+        }
+
+        #chatbox .input-box button {
+            padding: 10px;
+            background-color: #ff9900;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Logo" class="logo"> <!-- Logo positioned here -->
+        <div class="container" id="main-container">
+            <h1>Confluence of Traditions | संस्कार संगम</h1>
+            <h2>Welcome to India: A Land of Timeless Wonders and Vibrant Traditions! 🌟</h2>
+            <p>From the majestic Himalayas to the serene backwaters, and from ancient temples to bustling markets, India promises an unforgettable journey through its rich tapestry of culture, heritage, and hospitality.</p>
+            <p>Embrace the colors, flavors, and warmth of our incredible nation as you explore every corner of this magnificent land. Enjoy your adventure!</p>
+            <a href="main.html">
+                <button id="start-journey-btn">Namaste!! Start your vibrant journey of India</button>
+            </a>       
+        </div>
+    </header>
+
+    <!-- Chatbot icon and chat window -->
+    <div id="chatbot-icon" onclick="toggleChatbot()">💬</div>
+
+    <div id="chatbox">
+        <header>Chat with us!</header>
+        <div class="messages" id="chat-messages">
+            <p><strong>Bot:</strong> Hello! How can I assist you today?</p>
+        </div>
+        <div class="input-box">
+            <input type="text" id="user-input" placeholder="Type your message..." onkeypress="handleKeyPress(event)">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script>
+        // Toggle chatbot visibility
+        function toggleChatbot() {
+            var chatbox = document.getElementById("chatbox");
+            if (chatbox.style.display === "none" || chatbox.style.display === "") {
+                chatbox.style.display = "flex";
+            } else {
+                chatbox.style.display = "none";
+            }
+        }
+
+        // Handle user pressing enter in input
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+
+        // Send user message to chatbot
+        function sendMessage() {
+            var inputField = document.getElementById("user-input");
+            var userMessage = inputField.value.trim();
+            if (userMessage === "") return;
+
+            var chatMessages = document.getElementById("chat-messages");
+
+            // Add user message to chat
+            var userMsg = document.createElement("p");
+            userMsg.innerHTML = "<strong>You:</strong> " + userMessage;
+            chatMessages.appendChild(userMsg);
+
+            // Clear input
+            inputField.value = "";
+
+            // Simulate bot response
+            setTimeout(function() {
+                var botMsg = document.createElement("p");
+                botMsg.innerHTML = "<strong>Bot:</strong> Thanks for reaching out! We'll get back to you shortly.";
+                chatMessages.appendChild(botMsg);
+
+                // Scroll to the bottom of the chat
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
